@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.248</title>
+            <pubDate>Sat, 27 Jun 2026 19:23:10 +0000</pubDate>
+            <sparkle:version>252</sparkle:version>
+            <sparkle:shortVersionString>0.1.248</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Cross-device EDITS now sync, not just new records. Root cause of 'same lead count, but a follow-up logged on one Mac doesn't update the status on the other': the Core Data merge policy was mergeByPropertyObjectTrump, which makes the LOCAL in-memory copy win a conflict — so when the other Mac imported your edit (incremented followUpCount, new lastFollowUpDate), its stale local copy trumped and discarded the incoming change. New records had no conflict so they synced; updates to existing leads got clobbered. Switched to the canonical NSPersistentCloudKitContainer policy, mergeByPropertyStoreTrump (remote/server wins = last-writer-wins across devices), so edits propagate. The objectTrump workaround was defensive cover for the old broken-share/zone-corruption era; the reaper + workspace consolidation + Sync Health panel now prevent and surface that, so it's safe to use the correct policy. IMPORTANT: both Macs must be on v0.1.248 for edits to sync both directions.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.248.zip"
+                length="15330555"
+                type="application/octet-stream"
+                sparkle:edSignature="0zEhiScttMacPBUMPNwDy9hji8sD0IvG/+BLK+XJsukuyt2i+aOACiCxMKQpziXSfOSOSSzoE0BMoXCV9HbtAg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.247</title>
             <pubDate>Sat, 27 Jun 2026 19:06:08 +0000</pubDate>
             <sparkle:version>251</sparkle:version>
