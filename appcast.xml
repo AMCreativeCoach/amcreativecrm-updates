@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.245</title>
+            <pubDate>Sat, 27 Jun 2026 18:24:20 +0000</pubDate>
+            <sparkle:version>249</sparkle:version>
+            <sparkle:shortVersionString>0.1.245</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Two-tier drafting is now part of the main system — automatic, no toggle. It runs on the link-light, high-volume early stages (Day 0 Immediate, Day 1 Unexpected Value) for a faster draft, while every stage that carries a critical CTA — a required link, coupon, or testimonial (Workshop Invite, Proof of Transformation, Survey + Check-in, Group Cohort Invite, One Question, Quick-Win Drop, Choice-Point Referral, Quarterly Nurture) — drafts single-call at MEDIUM reasoning so the CTA reliably lands. New FollowUpStage.hasCriticalCTA gate decides the route. The old experimental toggle is replaced by a global 'Force single-call drafting' escape hatch (Settings > AI > OpenAI > Advanced, off by default) for if you ever want to disable the fast path entirely.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.245.zip"
+                length="15254602"
+                type="application/octet-stream"
+                sparkle:edSignature="VGVgtSKh/CGdtUx9lLzR0Wr7AlneTquVcymjZX5YKQf2LS9SnW5/nYubTNLh5QCCmp3/oEG1kG9PSYYluYhjAg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.244</title>
             <pubDate>Sat, 27 Jun 2026 18:13:02 +0000</pubDate>
             <sparkle:version>248</sparkle:version>
