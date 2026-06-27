@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.240</title>
+            <pubDate>Sat, 27 Jun 2026 16:27:31 +0000</pubDate>
+            <sparkle:version>244</sparkle:version>
+            <sparkle:shortVersionString>0.1.240</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Funnel-aware follow-ups + fresh start. (1) FUNNEL FIX: the bulk follow-up queue now drafts each lead's next UNSENT stage (Day 0 Immediate, Day 1 Unexpected Value, Day 4 Proof of Transformation, ...) instead of collapsing every lead older than ~14 days to the generic 'nurture' resting stage. The drafts now reference the real funnel stage; the prompt names the funnel + stage + day explicitly. Also fixed a hardcoded '14-Day Momentum funnel' header that mislabeled 30-Day Activation leads. (2) COLD OPENER FIX: killed 'I saw your background' / 'came across your profile' / 'caught my eye' at the source — the cold-lead guardrail was handing the model these as APPROVED examples while a separate patcher hunted them down. Replaced with the house opener 'I checked out your profile and I'm impressed by [specific thing].' (3) FRESH START: one-time wipe of every existing 'Follow-up Ready' green-bubble draft on this update, so you start clean with the new drafter. Pending drafts are un-sent, so this is non-destructive. (4) TEST A FEW AT A TIME: in Leads selection mode, a new 'Draft Follow-ups (N)' button generates funnel-aware drafts for just the checked leads instead of the whole due queue. (5) CKSyncEngine migration pilot in Settings > Sync (experimental, off by default) — isolated cross-device registry to evaluate the NSPCKC replacement.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.240.zip"
+                length="15219828"
+                type="application/octet-stream"
+                sparkle:edSignature="UUDXdpFEW+JlozmsDTngsSFZa5clUoKY1CVdsA0opR5L4ank+ckqdldYWsw8c06EBi52AxlhAWfpGJzUIjvGAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.239</title>
             <pubDate>Sat, 27 Jun 2026 15:28:09 +0000</pubDate>
             <sparkle:version>243</sparkle:version>
