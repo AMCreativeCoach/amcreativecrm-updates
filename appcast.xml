@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.238</title>
+            <pubDate>Sat, 27 Jun 2026 14:41:09 +0000</pubDate>
+            <sparkle:version>242</sparkle:version>
+            <sparkle:shortVersionString>0.1.238</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[CRITICAL FIX: Install Update finally works on sandboxed builds. v0.1.236's entitlement+SUEnable fix got the download to complete, but Install still died with 'Failed to make auth right set / Failed copying system domain rights: -60005 / Failed to submit installer job'. Root cause: release script's deep re-sign was applying our sandboxed-host entitlements to every nested binary, forcing Sparkle's Installer.xpc into the sandbox. Installer.xpc MUST stay unsandboxed because it calls AuthorizationCreate to elevate to admin for /Applications writes — sandbox blocks that API. v0.1.238 rewrites the codesign step to hand-walk each nested binary with --preserve-metadata=entitlements, keeping each one's original entitlements (Sparkle's CI bake-in for the XPC services, Xcode for SalesNavCapture); only the host app gets --entitlements applied. Release script self-validates Installer.xpc is unsandboxed before shipping; aborts if not. The Downloader and host entitlement fixes from v0.1.236 stand. Manual install path still required for v0.1.234 users (their broken entitlements still block Install Update); future hops will auto-update cleanly.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.238.zip"
+                length="15078104"
+                type="application/octet-stream"
+                sparkle:edSignature="Q8dfGedRJeQupPMtYbX5BQryxqM3RUukA7dBND+4ge8vNB47H7VSRqR36PH6rwoj+PLOxw4UicjsWwvWxsi+DA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.237</title>
             <pubDate>Sat, 27 Jun 2026 14:30:39 +0000</pubDate>
             <sparkle:version>241</sparkle:version>
