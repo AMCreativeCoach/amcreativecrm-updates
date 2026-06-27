@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.239</title>
+            <pubDate>Sat, 27 Jun 2026 15:28:09 +0000</pubDate>
+            <sparkle:version>243</sparkle:version>
+            <sparkle:shortVersionString>0.1.239</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Teammate sync reliability. PRIMARY FIX: on macOS the foreground sync poller now keeps running while the app is open but not frontmost — it previously stopped the instant you clicked into another app, which (combined with macOS silent push being unreliable) meant a teammate's edits stopped flowing in whenever you were working elsewhere. macOS doesn't suspend non-frontmost apps, so the 20s poll now covers 'app open, Mac awake, working in another app' — the main 'my teammate's data isn't updating' case. Only pauses when all windows are closed / app hidden. iOS keeps stop-on-background (iOS genuinely suspends). SECONDARY FIX: accepting a CKShare invitation now re-registers the shared-database push subscription against the freshly-accepted share, so a participant who joins (or re-joins after a recovery) gets their shared subscription bound to the live share instead of stale/absent state. Note: silent push on a SLEEPING Mac still won't sync until wake — the poller covers awake-and-open; that's a macOS platform limit, not a bug.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.239.zip"
+                length="15081922"
+                type="application/octet-stream"
+                sparkle:edSignature="DoVMij5O1W4+39HoY5ervCjFoYkUYbQfapHvXSKhfbkH29Qgy6Huo3Ce3u01YOey6k3NEOogjEjp99sFoJb4BQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.238</title>
             <pubDate>Sat, 27 Jun 2026 14:41:09 +0000</pubDate>
             <sparkle:version>242</sparkle:version>
