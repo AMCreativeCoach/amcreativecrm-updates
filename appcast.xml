@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.236</title>
+            <pubDate>Sat, 27 Jun 2026 13:58:53 +0000</pubDate>
+            <sparkle:version>240</sparkle:version>
+            <sparkle:shortVersionString>0.1.236</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Update diagnostics + Sparkle installer fix. CRITICAL: v0.1.234's Sparkle mach-lookup entitlements were guessing wrong service names (org.sparkle-project.*) — Sparkle 2 actually uses <bundle-id>-spki / -spks / -spkp derived from the host bundle ID (verified against Sparkle's own TestApplication entitlements). Also adds SUEnableInstallerLauncherService + SUEnableDownloaderService Info.plist keys that sandboxed apps must declare to opt into Sparkle's XPC services. Without both, Install Update silently falls back to in-process installation which the sandbox blocks ('An error occurred while launching the installer'). New SparkleUpdaterDiagnostics captures every Sparkle lifecycle event with full NSError chain. New SyncErrorInterpreter translates Cocoa error codes (134421 etc) into plain English, walks the underlying CKError chain, surfaces per-item partial failures. Recent Errors rows in the sync popover are now expandable to show the full interpreted chain inline. NOTE: Gorgeous's v0.1.234 has the broken entitlements so it can't auto-install this update — she needs a manual download + replace for this one hop; future updates will install cleanly.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.236.zip"
+                length="15052844"
+                type="application/octet-stream"
+                sparkle:edSignature="0adphB949jOk675iE1Rqvf6SfUKYipnFfQB1YsuSdUF+/+eqfAEizVRMFcPu6nMIaHLHy27t2JaV2xgKoMhaCA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.235</title>
             <pubDate>Sat, 27 Jun 2026 13:38:59 +0000</pubDate>
             <sparkle:version>238</sparkle:version>
