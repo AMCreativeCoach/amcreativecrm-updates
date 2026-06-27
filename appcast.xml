@@ -3,10 +3,13 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      version="2.0">
     <channel>
+        <title>AM Creative CRM</title>
+        <description>Sparkle update feed for AM Creative CRM.</description>
+        <language>en</language>
         <item>
             <title>Version 0.1.230</title>
             <pubDate>Sat, 27 Jun 2026 03:06:05 +0000</pubDate>
-            <sparkle:version>0.1.230</sparkle:version>
+            <sparkle:version>232</sparkle:version>
             <sparkle:shortVersionString>0.1.230</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[Fixes Gmail signature social icons (was missing the cached-URL fallback chain) and Email Proposal Subject line consistency (hoisted to position-0 of the addendum + parser fallback synthesizes one from the body when the model slips).]]></description>
@@ -16,14 +19,10 @@
                 type="application/octet-stream"
                 sparkle:edSignature="HoiUDQrFxTwV++HjCqQJ2INwrXLp5IZnqDWTkeH4Wd96lZKVYmtaqZqHg0Ao230aPjohjcmtpVZsTPrNGvrCBg==" />
         </item>
-
-        <title>AM Creative CRM</title>
-        <description>Sparkle update feed for AM Creative CRM.</description>
-        <language>en</language>
         <item>
             <title>Version 0.1.229</title>
             <pubDate>Sat, 27 Jun 2026 02:53:24 +0000</pubDate>
-            <sparkle:version>0.1.229</sparkle:version>
+            <sparkle:version>231</sparkle:version>
             <sparkle:shortVersionString>0.1.229</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[First Sparkle build — auto-update + notarization, no more Gatekeeper prompts]]></description>
