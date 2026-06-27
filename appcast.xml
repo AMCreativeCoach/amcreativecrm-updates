@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.242</title>
+            <pubDate>Sat, 27 Jun 2026 17:47:28 +0000</pubDate>
+            <sparkle:version>246</sparkle:version>
+            <sparkle:shortVersionString>0.1.242</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Kills profile-viewing openers in follow-ups. Every 'I saw your profile' / 'I saw your background' / 'I checked out your profile' / 'came across your profile' / 'looked at your profile' framing is now hard-banned across all follow-up drafting paths (cold-lead guardrail, two-tier opener, Sales Nav voice rules). These read as a cold first-glance and are especially jarring in later funnel stages where you've already sent 2-3 messages. Replaced with DIRECT PERSONAL openers that work at any stage — '[N] years in [field], and [observation]' or 'As a [Creative Director] in this market, [observation]' — anchored on who the lead is, framed as something you bring to them, with no viewing verb. Re-draft your follow-ups (Leads selection mode > Draft Follow-ups, or the Re-draft button) to regenerate against the new openers.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.242.zip"
+                length="15223540"
+                type="application/octet-stream"
+                sparkle:edSignature="a3Gbpb2GxlTjRWchgcgxb/O0Gek7eiWm0WJihN3Nk/2TKnKWA3iCBBwIs1n95s9CR7hyUEuZJj8oMa94e5AsCg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.241</title>
             <pubDate>Sat, 27 Jun 2026 16:44:05 +0000</pubDate>
             <sparkle:version>245</sparkle:version>
