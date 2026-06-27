@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.234</title>
+            <pubDate>Sat, 27 Jun 2026 05:42:38 +0000</pubDate>
+            <sparkle:version>237</sparkle:version>
+            <sparkle:shortVersionString>0.1.234</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Recovery release. Adds Stop sharing entirely button (Settings ▸ Sync) to programmatically delete a stuck CKShare via CKDatabase.deleteRecord — bypasses Apple's flaky system Sharing UI. Fixes Copy invite link returning a URL before the readWrite publicPermission persisted to the server (cause of 'owner stopped sharing' errors on freshly-minted links). Adds Sparkle 2.x sandbox mach-lookup entitlements so the auto-updater installer can actually launch (cause of 'An error occurred while launching the installer' on previous updates).]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.234.zip"
+                length="14906287"
+                type="application/octet-stream"
+                sparkle:edSignature="DTTCFuPhOT0drZkszlQuyMtUD6q0o5KWDaPuBw+3t3skAVFX5P6khbln0ahcQ0REdOyihWpsq10/2hAXoQwVBA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.233</title>
             <pubDate>Sat, 27 Jun 2026 05:15:07 +0000</pubDate>
             <sparkle:version>235</sparkle:version>
