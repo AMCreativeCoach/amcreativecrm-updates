@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.244</title>
+            <pubDate>Sat, 27 Jun 2026 18:13:02 +0000</pubDate>
+            <sparkle:version>248</sparkle:version>
+            <sparkle:shortVersionString>0.1.244</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Workshop Invite (and every CTA stage) now actually includes its CTA. Bug: a Day-10 Workshop Invite draft referenced 'a workshop' but had NO Eventbrite link and closed with a generic 'hit reply' — the model conflated the required soft-CTA close with the primary CTA and dropped the real ask. Fix: stages with a hard call-to-action (workshop invite, discovery call, Alberto) now get a hoisted, self-checked REQUIRED-CTA block at the TOP of the prompt ('the close MUST be this CTA with its URL, not a hit-reply line; verify the link is present before output'). The soft-CTA-close section now explicitly defers to the primary CTA when one exists, so value-first stages still close soft but CTA stages close with the link + sign-up ask. Re-draft to pick it up.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.244.zip"
+                length="15254483"
+                type="application/octet-stream"
+                sparkle:edSignature="unhs5URx1etVuA37sZEWrJ/Q2y/RHbOoa2OHYulTd8P8Rw3Hzi6cNeSron78dqa0DCtJWaCECX4AL67Rl6gkCA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.243</title>
             <pubDate>Sat, 27 Jun 2026 17:57:56 +0000</pubDate>
             <sparkle:version>247</sparkle:version>
