@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     version="2.0">
+    <channel>
+        <title>AM Creative CRM</title>
+        <description>Sparkle update feed for AM Creative CRM.</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.1.229</title>
+            <pubDate>Sat, 27 Jun 2026 02:53:24 +0000</pubDate>
+            <sparkle:version>0.1.229</sparkle:version>
+            <sparkle:shortVersionString>0.1.229</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[First Sparkle build — auto-update + notarization, no more Gatekeeper prompts]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.229.zip"
+                length="14868576"
+                type="application/octet-stream"
+                sparkle:edSignature="EZPA1rGs71CBS2dNqfzbLiLLAxJ9ydPis01jKYjIeFnHDHNy5bwagVY9b68Q3IkU3qLjcGUTcCSHvIGkLCZYAg==" />
+        </item>
+    </channel>
+</rss>
