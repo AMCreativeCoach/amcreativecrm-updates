@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.249</title>
+            <pubDate>Sat, 27 Jun 2026 19:37:51 +0000</pubDate>
+            <sparkle:version>253</sparkle:version>
+            <sparkle:shortVersionString>0.1.249</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Sync error diagnostics: exhaustive cause dump. A generic 'Cocoa 134060' export failure reported 'see the underlying error for the cause' but then showed nothing beneath it — because that error stashed its real detail under non-standard userInfo keys (affected objects, conflict lists, validation/CloudKit internals) the interpreter didn't check. It now dumps EVERY remaining userInfo key (affected NSManagedObjects summarized by entity, nested errors recursed, other values truncated) so the actual cause is always visible in the Copy Diagnostics output. No behavior change to sync itself.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.249.zip"
+                length="15336939"
+                type="application/octet-stream"
+                sparkle:edSignature="3yDj2hOL1zhgeEB8nyF7aT5IbabVKZ+KiofuetRoZuHewer8dZUT2qFZZC43Ac62zNmvYddM7nAGhwtEUNoSDg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.248</title>
             <pubDate>Sat, 27 Jun 2026 19:23:10 +0000</pubDate>
             <sparkle:version>252</sparkle:version>
