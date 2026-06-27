@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.247</title>
+            <pubDate>Sat, 27 Jun 2026 19:06:08 +0000</pubDate>
+            <sparkle:version>251</sparkle:version>
+            <sparkle:shortVersionString>0.1.247</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[One-tap recovery in the Sync Health panel. Every issue the panel surfaces now has a Fix button that performs the recovery inline, reusing the existing confirmed flows: 'Turn on iCloud sync' (local-only fallback → enable + relaunch), 'Create share + copy link' (no live CKShare → mints the share and copies the invite, non-destructive), and 'Consolidate into shared workspace' (stranded records / wrong active workspace → moves records onto the share-rooted workspace, with confirmation). See the problem, tap the fix — no more hunting through settings for the right button.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.247.zip"
+                length="15330498"
+                type="application/octet-stream"
+                sparkle:edSignature="KRgb50/bQGEv5CGp579PC+ej8cz52gEG5ExVc8LG2Bo19XXCawjp8wpDfilurwuqXqy516dEEXewn2A91QuiCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.246</title>
             <pubDate>Sat, 27 Jun 2026 18:37:32 +0000</pubDate>
             <sparkle:version>250</sparkle:version>
