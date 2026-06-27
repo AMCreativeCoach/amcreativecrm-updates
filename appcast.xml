@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.243</title>
+            <pubDate>Sat, 27 Jun 2026 17:57:56 +0000</pubDate>
+            <sparkle:version>247</sparkle:version>
+            <sparkle:shortVersionString>0.1.243</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[CKSyncEngine pilot — now an evaluation instrument. The Device Sync pilot (Settings > Sync, experimental) gains the telemetry that makes it actually useful for judging whether CKSyncEngine should replace NSPersistentCloudKitContainer: a live engine event log (fetch/send/conflict/state-persist), pending-to-send count, last fetch/send timestamps, and the headline migration metric — cross-device PROPAGATION LATENCY (how many seconds a change made on one device takes to appear on another). That's the number that decides the migration: CKSyncEngine in seconds vs NSPCKC's flaky minutes. Run it on two of your Macs, make a change, and watch the propagation time. Still fully isolated from your leads, off by default.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.243.zip"
+                length="15253205"
+                type="application/octet-stream"
+                sparkle:edSignature="+VxHs8/TpSK9NaatV8qP9itvCXJuCYoWkJ81i8vbURtJSjy9uo6iYSsSEjh7x0B3MPDOTwsJj4fueZuSgp82CA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.242</title>
             <pubDate>Sat, 27 Jun 2026 17:47:28 +0000</pubDate>
             <sparkle:version>246</sparkle:version>
