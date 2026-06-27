@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.251</title>
+            <pubDate>Sat, 27 Jun 2026 20:28:47 +0000</pubDate>
+            <sparkle:version>255</sparkle:version>
+            <sparkle:shortVersionString>0.1.251</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[FIX (for real): Sync Health no longer freezes the app. v0.1.250 moved the work to a background thread, but container.fetchShares() blocks at the Core Data persistent-store-coordinator LOCK when the CloudKit mirror is wedged — so it froze the whole app regardless of thread. This version removes fetchShares from the health check entirely. The census that matters — CloudKit-vs-local, per-workspace store + lead counts, per-store totals, stranded records — needs none of it. 'Shared' is now detected by store membership (a workspace mirrored into the .shared store is one shared with you), which is exactly the signal for diagnosing whether a Mac is truly receiving a teammate's share vs holding a separate local copy. Detailed participant info stays in the Team workspace section, opened deliberately. The panel now opens instantly and can't lock up.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.251.zip"
+                length="15340210"
+                type="application/octet-stream"
+                sparkle:edSignature="Q12J0XcduTnWZDP8ewx08sLTBSfn8J0keYYR7eqes31lEoVRHSGj99q841Sho73niUTLrPo18iA+x5oYqTMiDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.250</title>
             <pubDate>Sat, 27 Jun 2026 20:10:19 +0000</pubDate>
             <sparkle:version>254</sparkle:version>
