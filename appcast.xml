@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.237</title>
+            <pubDate>Sat, 27 Jun 2026 14:30:39 +0000</pubDate>
+            <sparkle:version>241</sparkle:version>
+            <sparkle:shortVersionString>0.1.237</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Two-tier follow-up drafting (opt-in behind hidden toggle). Settings > AI > OpenAI > Experimental > 'Two-tier follow-up drafting' splits Draft Follow-up into a parallel slow-opener (reasoning_effort: medium, ~50 tokens) + fast-body (reasoning_effort: minimal, ~750 tokens). Expected total latency drops ~30-50% on the 9 templated stages: immediate, unexpectedValue, proofOfTransformation, oneQuestion, workshopInvite, quickWinDrop, surveyCheckIn, groupCohortInvite, choicePointReferral, quarterlyAlumniNurture. The 5 skip-list stages (softBreakup, discoveryRecap, progressAuditTestimonial, nurture, Sales-Nav cold opener) stay on the existing single-call precision path regardless of the toggle. Drafter splices opener into body output right after 'Hey {firstName},' line; falls back to body-only if opener fails. Toggle defaults OFF so single-call stays default until A/B verified.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.237.zip"
+                length="15093705"
+                type="application/octet-stream"
+                sparkle:edSignature="j6oc466GzbtPEvJDJ1YA27b1YzVORK/sGfUfiAQ3XJHjkVWDnEDjhltNMxAtPy+cZdCnTMwcRAczo0m1oCQbAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.236</title>
             <pubDate>Sat, 27 Jun 2026 13:58:53 +0000</pubDate>
             <sparkle:version>240</sparkle:version>
