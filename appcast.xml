@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.233</title>
+            <pubDate>Sat, 27 Jun 2026 05:15:07 +0000</pubDate>
+            <sparkle:version>235</sparkle:version>
+            <sparkle:shortVersionString>0.1.233</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Fixes Copy invite link hang ('Swift task continuation misuse' — persistUpdatedShare's completion sometimes never fires when there's nothing to persist; we now short-circuit when the share already has a URL and use a 10s timeout + one-shot guard when an actual persist is needed). Also: Fireshot filename matching in bulk import.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.233.zip"
+                length="14879625"
+                type="application/octet-stream"
+                sparkle:edSignature="ovIn8PDDO5Y0aYXt4w7diJYqIUCS0gnwkeVvkf2VucsxvbBh36Zs/KGSN5VRENAKPBNTtStpMyG+Um4skeEdCA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.232</title>
             <pubDate>Sat, 27 Jun 2026 04:47:34 +0000</pubDate>
             <sparkle:version>234</sparkle:version>
