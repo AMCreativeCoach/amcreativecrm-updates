@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.246</title>
+            <pubDate>Sat, 27 Jun 2026 18:37:32 +0000</pubDate>
+            <sparkle:version>250</sparkle:version>
+            <sparkle:shortVersionString>0.1.246</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Sync Health panel — Settings > Sync, at the top. The diagnostic that would have turned today's multi-hour 'why are my leads local / which workspace is shared / is the share even alive' archaeology into one glance. A traffic-light verdict (Syncing normally / with issues / Sync is broken) plus: CloudKit-active-vs-local-fallback mode, a workspace census (each workspace's store, lead count, whether it holds the live CKShare, and accepted/pending participants), stranded-record count, per-store lead counts, and a plain-English issue list where each problem names its own fix ('No workspace has a live CKShare — use Copy invite link', 'N records attached to a non-shared workspace — Consolidate', 'The active workspace has 0 leads but another holds them', etc). One-tap Copy for the full report. Read-only; recompute on demand.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.246.zip"
+                length="15315501"
+                type="application/octet-stream"
+                sparkle:edSignature="LshXeb9HmRvFJ/PjSa0+u0/KlGd0dfoZ9Way7dVSOHpQwDEd1U1wHAuzBlMAYHMpoEUUc9R1dWUEcSbAPGfzCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.245</title>
             <pubDate>Sat, 27 Jun 2026 18:24:20 +0000</pubDate>
             <sparkle:version>249</sparkle:version>
