@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.232</title>
+            <pubDate>Sat, 27 Jun 2026 04:47:34 +0000</pubDate>
+            <sparkle:version>234</sparkle:version>
+            <sparkle:shortVersionString>0.1.232</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[CRITICAL FIX: restores CloudKit sync after v0.1.229. The CODE_SIGN_INJECT_BASE_ENTITLEMENTS=NO setting (added for notarization to strip get-task-allow) also stripped application-identifier + team-identifier, which CKContainer requires. Symptom on /Applications install was 'Trying to initialize a container without an application ID' + no syncing to/from teammates. Also: Fireshot screenshot filenames now matched in bulk import; Email Proposal subject lines hoisted to position-0 + parser fallback; Gmail signature social icons use cached-URL fallback chain.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.232.zip"
+                length="14878303"
+                type="application/octet-stream"
+                sparkle:edSignature="0VMfloR3QYx3sxmIH0FJO5d4qm8nRi37fwxh83TDV4d1+677M75gq7TqJSU8lp99G6ldWzmlfLCDK2wbG9QjAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.231</title>
             <pubDate>Sat, 27 Jun 2026 03:28:38 +0000</pubDate>
             <sparkle:version>233</sparkle:version>
