@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.250</title>
+            <pubDate>Sat, 27 Jun 2026 20:10:19 +0000</pubDate>
+            <sparkle:version>254</sparkle:version>
+            <sparkle:shortVersionString>0.1.250</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[FIX: app froze when opening Sync Health. The panel ran fetchShares() and the lead/workspace fetches synchronously on the main thread — and fetchShares blocks on a wedged CloudKit mirror, which froze the whole UI exactly when sync was broken (when you most need the panel). All of it now runs on a background context; the panel shows a spinner until the report is ready. Functionally identical output, just non-blocking.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.250.zip"
+                length="15344629"
+                type="application/octet-stream"
+                sparkle:edSignature="LaflRohwiQvCUnNaghYdRqPsDknEG5DeuV9Oas5TlwnR/BXOxzbXAUEBIhy7Wf2XfxC+bNGf/LtUzwCBEMzKCQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.249</title>
             <pubDate>Sat, 27 Jun 2026 19:37:51 +0000</pubDate>
             <sparkle:version>253</sparkle:version>
