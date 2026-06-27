@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.241</title>
+            <pubDate>Sat, 27 Jun 2026 16:44:05 +0000</pubDate>
+            <sparkle:version>245</sparkle:version>
+            <sparkle:shortVersionString>0.1.241</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Day-5 Survey + Check-in is now real. The surveyCheckIn follow-up stage used to ship a dead [SURVEY_URL_PLACEHOLDER] — now it resolves to a real per-lead survey link. New: a branded 4-question survey page (survey-web/) you deploy to your existing Firebase project's Hosting; it reads the lead's stable token from the URL and writes the response to Firestore. The app derives the survey URL automatically from the Firebase project ID you already configured for the Alberto dashboard and bakes each lead's token in, so responses tie back to the lead. The token is a deterministic SHA-256 over stable lead fields (survives store rebuilds, no new schema). Until the survey site is deployed, drafts gracefully skip the survey sentence instead of shipping a placeholder or a fake link. Deploy steps: survey-web/README.md.]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.241.zip"
+                length="15222995"
+                type="application/octet-stream"
+                sparkle:edSignature="ea+sT1xmMiu3xsgdTypiIp+OOhsUOYEpw2Sy9wTcUCZdXNK4LCvCj6x3GlDKg5EaHwydB+IJPipFhK2mmfhnCA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.240</title>
             <pubDate>Sat, 27 Jun 2026 16:27:31 +0000</pubDate>
             <sparkle:version>244</sparkle:version>
