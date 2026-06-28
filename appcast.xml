@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.270</title>
+            <pubDate>Sun, 28 Jun 2026 07:38:47 +0000</pubDate>
+            <sparkle:version>287</sparkle:version>
+            <sparkle:shortVersionString>0.1.270</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Release v0.1.270]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.270.zip"
+                length="18364327"
+                type="application/octet-stream"
+                sparkle:edSignature="+zy4i9+ItpIuCl0qP5VptNzweoCA5IKU+7nOywUDW64E2K90oBkVhX8tVv9U7M0/NM9nVQ+oEQlHboLAuhLtCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.269</title>
             <pubDate>Sun, 28 Jun 2026 07:33:33 +0000</pubDate>
             <sparkle:version>285</sparkle:version>
