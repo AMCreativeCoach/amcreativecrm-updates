@@ -4,6 +4,29 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.285</title>
+            <pubDate>Wed, 01 Jul 2026 03:32:39 +0000</pubDate>
+            <sparkle:version>313</sparkle:version>
+            <sparkle:shortVersionString>0.1.285</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version 0.1.285</h2>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>Day-5 check-in email</strong> now references your Discovery Call with the lead instead of the workshop they signed up through, and no longer tacks on a "catch the replay" workshop link.</li>
+<li><strong>Post-call survey link</strong> now opens the real survey page instead of the Alberto app, so leads reach the right place.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><strong>Lead list ordering:</strong> brand-new Eventbrite and Alberto signups now sit at the top of the default view (newest first) until you send their first outreach, ranked above overdue and then due follow-ups.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.285.zip"
+                length="18697862"
+                type="application/octet-stream"
+                sparkle:edSignature="slOIBPSv9XxmWfmXVyzG9Z/qPwfgrzDj5bNNYWmK/bdIh5Unrxzx6c2Jnu47U3viQWRyNYaKjwXpNtUxacMSBA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.284</title>
             <pubDate>Tue, 30 Jun 2026 22:54:43 +0000</pubDate>
             <sparkle:version>312</sparkle:version>
