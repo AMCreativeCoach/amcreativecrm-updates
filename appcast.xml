@@ -4,6 +4,41 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.286</title>
+            <pubDate>Thu, 02 Jul 2026 22:02:25 +0000</pubDate>
+            <sparkle:version>314</sparkle:version>
+            <sparkle:shortVersionString>0.1.286</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Automations panel</b> — Settings → Automations manages Eventbrite auto-send and the LinkedIn queue in one place.</li>
+<li><b>Eventbrite auto-send</b> — hands-off inquiry emails (a full proposal first, then the cadence); off by default, and a reply pauses the lead for you.</li>
+<li><b>LinkedIn ready-to-send queue + batch open</b> — drafts your due LinkedIn follow-ups and opens them pre-filled in batches of 3, 5, or 10, pausing between. You review and hit Send.</li>
+<li><b>Interaction timeline</b> — a per-lead, chat-style history of every email and LinkedIn touch, with quick actions.</li>
+<li><b>LinkedIn reply capture</b> — the Safari extension logs LinkedIn messenger replies onto the right lead, with a capture report.</li>
+<li><b>Workshop reminder emails</b> — one click emails today's registrants a branded reminder, shown in the event's own time zone.</li>
+<li><b>Message Activity window</b> — a two-way feed of everything sent and received across all leads, with filters.</li>
+<li><b>Alberto Live board</b> — a workshop-night window of live signups and plan upgrades, newest first, that ties each one to your CRM lead.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>The toolbar sync status now reflects Supabase (your actual sync), not iCloud.</li>
+<li>“Open in LinkedIn” now lands in the composer with the message already typed in — no extension needed.</li>
+<li>Just-composed LinkedIn leads float to the top of the list and queue with a one-click “Mark sent.”</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Fixed Eventbrite auto-send occasionally sending duplicate, back-to-back emails.</li>
+<li>Fixed the LinkedIn batch opening fewer tabs than requested, and the queue highlighting the wrong rows after marking one sent.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.286.zip"
+                length="19902492"
+                type="application/octet-stream"
+                sparkle:edSignature="QRZg0YNzkZkMujxjqO1Isdru2pp/b9oiMPY1Z54GMLwY0QitAIfoIum9IumUs1ne4PUQIhq9xdgKI/hMkLOqCg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.285</title>
             <pubDate>Wed, 01 Jul 2026 03:32:39 +0000</pubDate>
             <sparkle:version>313</sparkle:version>
