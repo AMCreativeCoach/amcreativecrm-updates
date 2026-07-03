@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.287</title>
+            <pubDate>Fri, 03 Jul 2026 20:26:47 +0000</pubDate>
+            <sparkle:version>315</sparkle:version>
+            <sparkle:shortVersionString>0.1.287</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li><b>Sales Navigator InMail auto-fill.</b> "Send LinkedIn Follow-up" on a Sales Nav lead opens the InMail composer and fills the subject and message for review. It confirms the recipient before typing and never sends on its own.</li><li><b>Post-Workshop Recap and Remind Again.</b> New buttons in Workshop Reminders: a thank-you recap with a Download Alberto call to action and a spot for a coupon code and expiration (shown in ET), plus a one-tap starting-soon nudge. You can also send to a single workshop group and look up a coupon in Stripe.</li><li><b>Alberto Pro and Dream upgrade cards.</b> The Alberto dashboard now breaks new paid upgrades out by tier.</li><li><b>Bulk mark-sent.</b> The LinkedIn queue has a "Mark N as sent" button that advances every opened lead at once.</li></ul><h3>Improvements</h3><ul><li>The Workshop Reminders button is always available and lists the current week of workshops (Sunday through Saturday), rolling over each Sunday.</li><li>Coupon expiration always shows the Eastern time zone.</li></ul><h3>Bug fixes</h3><ul><li>The post-workshop recap now sends for workshops earlier in the week, not only the current day.</li><li>Sales Nav bulk PDF download no longer falls out of order or saves the wrong profile after a lead is skipped.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.287.zip"
+                length="20097664"
+                type="application/octet-stream"
+                sparkle:edSignature="25C82RHeTuRmLJl9hIQAsEtJAWnnNbXXthmtXyxeR+o+GOjzI2lp8F7ys2eOJdfRaiecnupDsPM4Ogoq/firDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.286</title>
             <pubDate>Thu, 02 Jul 2026 22:02:25 +0000</pubDate>
             <sparkle:version>314</sparkle:version>
