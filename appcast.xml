@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.288</title>
+            <pubDate>Fri, 03 Jul 2026 23:56:53 +0000</pubDate>
+            <sparkle:version>316</sparkle:version>
+            <sparkle:shortVersionString>0.1.288</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3><ul><li>Send LinkedIn Follow-up (and the AI chat LinkedIn send) now open in Safari specifically, so responding to leads always lands in Safari even when Chrome is your default browser.</li></ul><h3>Bug fixes</h3><ul><li>Fixed a case where sending a LinkedIn follow-up from the AI chat could lose the draft when the browser failed to open. The draft is now cleared only once the browser actually opens; if it cannot open, the draft is kept and an error is shown.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.288.zip"
+                length="20098658"
+                type="application/octet-stream"
+                sparkle:edSignature="OanW8UmB9ROvG4VOrfNWuoURb5TMUvkBLcfXuLp2XhJqNxzC4lRvaEeDiqyzHB46QlkWEZ5eTLYH9LZrjboIBg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.287</title>
             <pubDate>Fri, 03 Jul 2026 20:26:47 +0000</pubDate>
             <sparkle:version>315</sparkle:version>
