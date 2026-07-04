@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.290</title>
+            <pubDate>Sat, 04 Jul 2026 13:22:05 +0000</pubDate>
+            <sparkle:version>318</sparkle:version>
+            <sparkle:shortVersionString>0.1.290</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3><ul><li>Select leads in the Leads list and hit LinkedIn Follow-ups to draft a fresh follow-up for each LinkedIn lead at once (Eventbrite and other non-LinkedIn leads are skipped), then send them from the LinkedIn Ready-to-Send queue.</li><li>Alberto Live now shows right on the Alberto workspace page, not only in a separate window.</li></ul><h3>Improvements</h3><ul><li>LinkedIn Ready-to-Send: each lead is its own card, with an inline stage picker that redrafts the message when you change the funnel stage.</li><li>Interaction history now saves the full message you sent (it was saving only the funnel stage name), and you can right-click any entry to delete it.</li><li>Toolbar buttons now show their labels beneath the icons.</li></ul><h3>Bug fixes</h3><ul><li>Supabase sync no longer fails to save a whole batch of records when one has a newly-added, still-empty column (a null value could break workshop, coupon, and metric sync). Validation errors now name the exact field.</li><li>The Alberto Pro and Dream upgrade cards load again (the Stripe query exceeded the expand-depth limit).</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.290.zip"
+                length="20192358"
+                type="application/octet-stream"
+                sparkle:edSignature="vsvoTgRktFy4+o4U+9nAIhxGJYrYe36B7vi8cTHYGEWYNZP4Vrbk917mr+ZW9nxLJ6sez1kzxkTcf5Rca0zGDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.289</title>
             <pubDate>Sat, 04 Jul 2026 01:54:15 +0000</pubDate>
             <sparkle:version>317</sparkle:version>
