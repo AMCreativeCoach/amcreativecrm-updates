@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.289</title>
+            <pubDate>Sat, 04 Jul 2026 01:54:15 +0000</pubDate>
+            <sparkle:version>317</sparkle:version>
+            <sparkle:shortVersionString>0.1.289</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3><ul><li>Interaction History now lives in the right-side panel: a new History tab beside the AI assistant shows the full message thread for the lead you are viewing (every email, reply, and LinkedIn touch), and opens automatically when you open a lead. The full-size Interactions window is still one click away.</li></ul><h3>Improvements</h3><ul><li>LinkedIn first-touch proposals (regular DM and Sales Navigator InMail) now open as a real proposal: one client testimonial, kept under the LinkedIn character limit, offering Alberto as a free cheat-sheet for the job search alongside the free Discovery Call.</li><li>Follow-ups no longer repeat the thanks-for-reaching-out opener; it now appears only on the first proposal, and later touches lead with the substance of the message.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.289.zip"
+                length="20112012"
+                type="application/octet-stream"
+                sparkle:edSignature="7IGkJVXaJJjEh/MyU0z4SGH92W0jCdLLkoQr6wUmpFi3n7ZIdftCjvavMkz3y2cDrQY9jcweqILgvqFkNKg3BQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.288</title>
             <pubDate>Fri, 03 Jul 2026 23:56:53 +0000</pubDate>
             <sparkle:version>316</sparkle:version>
