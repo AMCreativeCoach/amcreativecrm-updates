@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.291</title>
+            <pubDate>Sat, 04 Jul 2026 13:33:24 +0000</pubDate>
+            <sparkle:version>319</sparkle:version>
+            <sparkle:shortVersionString>0.1.291</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3><ul><li>Fixed the Alberto Pro and Dream upgrade cards, which showed a "could not parse Stripe response" error after the last update. The tier query reads subscriptions without the customer expanded, and the decoder now handles that correctly.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.291.zip"
+                length="20192224"
+                type="application/octet-stream"
+                sparkle:edSignature="xaZ1AK7cshK5pOeIC304yxFKml5z6SR4B7zZc8eZHWdnMV/BSYAaGF2yNmSU3bsuG6pdBSkHaGTRLRyBaQTlBQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.290</title>
             <pubDate>Sat, 04 Jul 2026 13:22:05 +0000</pubDate>
             <sparkle:version>318</sparkle:version>
