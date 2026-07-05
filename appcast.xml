@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.292</title>
+            <pubDate>Sun, 05 Jul 2026 00:18:47 +0000</pubDate>
+            <sparkle:version>320</sparkle:version>
+            <sparkle:shortVersionString>0.1.292</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3><ul><li>New Celebrations holiday email campaign template — it opens with a cheeky nod to the holiday you name, announces the latest Alberto features, and hands the reader a coupon.</li><li>Coupons in email campaigns: the freeform and templated campaign composers both gained a Coupon section (code, a Check against Stripe, and expiry) that drops in the same branded coupon card the workshop emails use.</li></ul><h3>Bug fixes</h3><ul><li>LinkedIn Ready-to-Send: the Open button now opens exactly the leads shown in the queue. When you drafted follow-ups for selected leads and it said there was nothing staged to open, it was checking the wrong list; it now opens each shown draft, prefilled.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.292.zip"
+                length="20179414"
+                type="application/octet-stream"
+                sparkle:edSignature="ZLFDExr33k1gtDyqvnp2gb0upcQK7EEWXP3N5sbdqsCNbJ+FhcSVregNGnhMUY8i49mxM+6ja6n5erdbWgbkDA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.291</title>
             <pubDate>Sat, 04 Jul 2026 13:33:24 +0000</pubDate>
             <sparkle:version>319</sparkle:version>
