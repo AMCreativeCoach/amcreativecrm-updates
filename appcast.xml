@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.294</title>
+            <pubDate>Mon, 06 Jul 2026 04:34:35 +0000</pubDate>
+            <sparkle:version>321</sparkle:version>
+            <sparkle:shortVersionString>0.1.294</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Discovery survey answers in the CRM</b> — a lead's Day-5 check-in survey responses now appear right on their detail view and interaction timeline. Connect it under Settings → Survey.</li>
+<li><b>Profile Needed tracking for LinkedIn leads</b> — new Marketplace and Sales Navigator leads that don't have a profile yet get an orange <b>Profile Needed</b> badge and a matching filter, so after a bulk import you can see at a glance which ones still need their profile. <b>Auto-Download Missing Profiles…</b> fetches them through the extension.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Sharper post-Discovery follow-ups</b> — once a lead has had a Discovery Call, follow-ups reference the call and what has happened since it (never how you originally met them), and they use the real time since the call instead of the stage's target day.</li>
+<li><b>Group coaching invite</b> — the Day-10 touch now invites leads to the Alberto Dream weekly small-group session (Tuesdays 8pm ET), backed by a client success story.</li>
+<li><b>Alberto-first resources</b> — the assistant now points to the free Shifting Your Mindset course inside Alberto instead of the old standalone workbook.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Post-Discovery quick-wins no longer slip back into referencing a lead's original LinkedIn or Eventbrite source.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.294.zip"
+                length="20363980"
+                type="application/octet-stream"
+                sparkle:edSignature="uZot2VS3b1IyPlFLAYqqtEJevdvfaU7byOnwECGOElmLJPqfTlysxJLx2i3oJFDU9QMcNN7lpAV/Lie9bjMsAQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.292</title>
             <pubDate>Sun, 05 Jul 2026 00:18:47 +0000</pubDate>
             <sparkle:version>320</sparkle:version>
