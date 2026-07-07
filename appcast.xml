@@ -4,6 +4,38 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.295</title>
+            <pubDate>Tue, 07 Jul 2026 15:59:02 +0000</pubDate>
+            <sparkle:version>322</sparkle:version>
+            <sparkle:shortVersionString>0.1.295</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Automation Center</b> — a dedicated window for auto-drafting Eventbrite proposals and LinkedIn follow-ups. Choose the pipeline it acts on (Inquiries, Discovery, or both), pause either channel any time, and work the ready-to-send LinkedIn queue with a "Mark Open as Sent" button and per-lead funnel-stage switching that redrafts on the fly.</li>
+<li><b>Workshop Campaign composer</b> — pick an upcoming workshop and its full posting schedule appears. Draft every post oldest to newest (one Facebook + LinkedIn longform plus distinct Instagram, Threads, and TikTok short-forms), review and edit each, then schedule them all to Buffer at their exact times. A shared 9:16 promo card in the Alberto brand colors rides every post, with Instagram-Story and TikTok safe margins built in. Drag an image onto the card or click to browse; it is saved per workshop.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Filter leads by day of the funnel.</li>
+<li>LinkedIn follow-ups from a selection now open in the Automation Center instead of the old modal.</li>
+<li>Instagram now posts as a Story, so 9:16 art is no longer cropped to a square.</li>
+<li>"Publish Now" is now "Add to Queue" throughout the marketing composer.</li>
+<li>Inquiry Workshop-Invite follow-ups now recommend a specific upcoming workshop, or point to the current schedule when none is booked.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>The app scans on launch and flags LinkedIn leads that are missing their profiles.</li>
+<li>Bulk PDF import no longer auto-composes discovery proposals — it enriches only.</li>
+<li>Leads are locked to read-only while auto-drafting, with a clear "Auto-Drafting in Progress" badge.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.295.zip"
+                length="20972251"
+                type="application/octet-stream"
+                sparkle:edSignature="I7/Mlngnfi0cwWnJQA7bDit+Ye+Hg6zH5q3hriwVd/WyFZgYVhB+82SsY2KkevlMeBTYhmKUmaI7H9H/vCbTAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.294</title>
             <pubDate>Mon, 06 Jul 2026 04:34:35 +0000</pubDate>
             <sparkle:version>321</sparkle:version>
