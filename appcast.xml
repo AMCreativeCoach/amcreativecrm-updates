@@ -4,6 +4,25 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.297</title>
+            <pubDate>Wed, 08 Jul 2026 12:02:10 +0000</pubDate>
+            <sparkle:version>324</sparkle:version>
+            <sparkle:shortVersionString>0.1.297</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Follow-up funnel positions repaired</b> — leads whose funnel stage was stuck at the wrong (earlier) position, or showed no completed stages despite follow-ups going out, are corrected automatically on launch. A one-time repair rebuilds each lead's funnel from its real follow-up history (the furthest stage actually sent), so the checked-off stages and the next stage now reflect reality. This fixes the aftermath of the v0.1.296 cross-user sync issue; the corrected positions sync to the team.</li>
+<li><b>Set-stage-by-hand fixed for post-Discovery leads</b> — the funnel stage editor was silently doing nothing for 30-Day Activation leads (a lead who had booked a Discovery call). It now updates the correct counter.</li>
+</ul>
+<p><b>Note:</b> every Mac on the team should update to v0.1.296 or later — an older build can still knock the funnel counters backward for everyone.</p>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.297.zip"
+                length="21592825"
+                type="application/octet-stream"
+                sparkle:edSignature="m0SBRbv6SksPkvp5jkrOnpXyjU0vkl65/jo0ox8VBm+z6QRTNCOAgT1SF1QK4CmTgEcDt8/C7IyqnUW/H8ixAw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.296</title>
             <pubDate>Wed, 08 Jul 2026 03:50:22 +0000</pubDate>
             <sparkle:version>323</sparkle:version>
