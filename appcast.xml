@@ -4,6 +4,35 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.296</title>
+            <pubDate>Wed, 08 Jul 2026 03:50:22 +0000</pubDate>
+            <sparkle:version>323</sparkle:version>
+            <sparkle:shortVersionString>0.1.296</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Social Post composer</b> (Campaigns → Social Post) — a dedicated window like Workshop Campaign. Drop a text document with one post or many (it splits on "POST N" headers, rules, or blank-line gaps) to fill the longforms, click to draft the Instagram Story / Threads / TikTok versions for every post, then add them all to the Buffer queue. Each post rides a 9:16 brand card (Hook or Quote style) with a framed image and Story/TikTok safe-zone guides.</li>
+<li><b>Workshop Campaign — image pool + reusable campaigns</b> — drop a batch of images per workshop and the posts round-robin through them; zoom and reposition each photo; scheduling saves the whole campaign under the workshop title so a future same-title workshop pre-fills and re-dates automatically; a green check marks workshops whose posts are already scheduled.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Automation Center</b> — when you pick LinkedIn leads and run the follow-ups, those exact leads now pin to the top as "Your selection — ready to send," with the rest of the queue de-emphasized below. Marking sent clears them from the pinned group.</li>
+<li><b>Workshop promo posts</b> now draft from the workshop's actual Eventbrite description instead of a generic tip library, so the copy reflects what that session really teaches.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Team follow-up funnel fixed (important)</b> — a teammate's auto-follow-up could draft a stage behind the shared funnel. The draft pass now pulls the latest lead state before drafting, and funnel counters can no longer regress across users.</li>
+<li><b>Sales Navigator InMail auto-fill restored</b> — opening a Sales Nav lead now types the subject + message into the InMail composer again (LinkedIn's page was stripping the hand-off before the extension could read it). Reload the Safari extension after updating.</li>
+<li>Social Post window layout fixed (the document drop zone is now front and center).</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.296.zip"
+                length="21582493"
+                type="application/octet-stream"
+                sparkle:edSignature="iD0PuMvtHG9T6UQrL76uaRz+4DAzpy7eYg5F3M2g+Kd926w61e72uWLnaHMwFDvnKlSKu+DTPMXJ1iQZprXOAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.295</title>
             <pubDate>Tue, 07 Jul 2026 15:59:02 +0000</pubDate>
             <sparkle:version>322</sparkle:version>
