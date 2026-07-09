@@ -4,6 +4,32 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.298</title>
+            <pubDate>Thu, 09 Jul 2026 04:00:53 +0000</pubDate>
+            <sparkle:version>325</sparkle:version>
+            <sparkle:shortVersionString>0.1.298</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Social Post composer, rebuilt as a 3-pane window</b> — Setup · Posts · Editor. Pick a post in the middle and it opens in an editor pane on the right (no more pop-up), with a live card preview that's 50% larger for easier framing and text edits. The first post auto-selects when you drop a document.</li>
+<li><b>Per-post brand photos, auto-assigned</b> — every post is given a random Brand Photo (from Settings → Brand Photos) the moment posts are added, spread evenly across your library. Change or reframe any post's photo — or drop a custom image — in its editor. A "Shuffle" button re-rolls them all.</li>
+<li><b>Per-post card text-size control</b> — a Quote (or Hook) text-size slider on each post scales the on-card text, live and in the exported image.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Tweet-style quote card</b> — identity on top (avatar · name · sky-blue verified badge · title), then the quote. The decorative purple quotation mark is gone, your name is locked to one line, and the title sits just under it.</li>
+<li><b>More room for on-card text</b> — the quote and hook areas grew (wider card, no fixed line cap) so longer copy fits, and you can now add line breaks: the Card hook and Card quote fields are multi-line, so press Return to space out your lines.</li>
+<li><b>Delete draft posts</b> — remove a post from the composer via the trash button, right-click, or the editor.</li>
+<li><b>Document formatting preserved</b> — dropping a Word/RTF document keeps the spacing between paragraphs instead of squishing them into one block.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.298.zip"
+                length="21678731"
+                type="application/octet-stream"
+                sparkle:edSignature="Q13ooIXAS2vTDUNquLV7cPJQZQaoJWvxRdYqo2FnNlkvqkS41JB20meWQhK63qdQmqmW83RDA00wdUffctn3CA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.297</title>
             <pubDate>Wed, 08 Jul 2026 12:02:10 +0000</pubDate>
             <sparkle:version>324</sparkle:version>
