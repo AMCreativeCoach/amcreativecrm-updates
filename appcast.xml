@@ -4,6 +4,25 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.299</title>
+            <pubDate>Thu, 09 Jul 2026 20:48:13 +0000</pubDate>
+            <sparkle:version>326</sparkle:version>
+            <sparkle:shortVersionString>0.1.299</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+<li><b>Card avatar now uses your email-signature headshot</b> — the round profile picture on the tweet card pulls from your signature profile images (Settings → the profile images list) instead of the brand photo. The brand photo stays the full-bleed background behind the card.</li>
+<li><b>Select all / deselect all posts</b> — a bar above the post list toggles every post in or out of the batch at once, with a live "N of M selected" count.</li>
+<li><b>Brand-photo framing is remembered</b> — how you zoom and position a brand photo is saved per photo and reused every time that photo appears on a card again (including after a reshuffle). It persists across launches, saved automatically in the background.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.299.zip"
+                length="21708653"
+                type="application/octet-stream"
+                sparkle:edSignature="7mTq7HuKHwr7elVenjbb+vSk6mSh7g/AYGj2Yu1hb1sBYZAzex7QH/iJsmDi+WUrlUt6rM7uCz5vJ1Yf0CsHDg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.298</title>
             <pubDate>Thu, 09 Jul 2026 04:00:53 +0000</pubDate>
             <sparkle:version>325</sparkle:version>
