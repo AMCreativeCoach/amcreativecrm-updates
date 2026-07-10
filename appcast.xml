@@ -4,6 +4,31 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.300</title>
+            <pubDate>Fri, 10 Jul 2026 05:21:04 +0000</pubDate>
+            <sparkle:version>327</sparkle:version>
+            <sparkle:shortVersionString>0.1.300</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Promotion — announce Alberto to your LinkedIn network</b>. A new local-only space for your 1st-degree connections (people who already know you), separate from your real leads. Capture them with the Safari extension (open <b>My Network → Connections</b>, click the extension, <b>Capture connections</b>), and they land in the new <b>Campaigns → Promotion</b> window.</li>
+<li><b>A warm-network follow-up funnel</b> drafts each connection's messages across five light touches (Day 0/4/10/18/30): announce the app, ask for feedback, who-it's-for, three family codes, and a warm thank-you. Draft due, open each in LinkedIn for a human send, and Mark sent to advance — the same draft-and-open flow as your other LinkedIn follow-ups.</li>
+<li><b>Three shareable coupons per connection</b> — at the Day-18 stage each contact gets three personal single-use 50%-off-3-months Alberto Dream codes to pass to family and friends.</li>
+<li><b>"Move to Leads"</b> graduates any connection who wants a Discovery call into your real pipeline, where they run the normal funnel and sync to the team.</li>
+</ul>
+<h3>Notes</h3>
+<ul>
+<li>Promotion contacts are <b>local to your Mac</b> — they don't sync to your teammate and don't appear in your normal Leads list, pipeline, or metrics until you move one into Leads.</li>
+<li>After updating, reload the Safari extension so the new <b>Capture connections</b> button appears (Safari → Settings → Extensions, or toggle it off/on).</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.300.zip"
+                length="21819282"
+                type="application/octet-stream"
+                sparkle:edSignature="y4jtDeAHKItjrQDXKGTtrCcA3N7HfYE1zHSYCRQAee9MEzvwkfhzkKwXXjR7meU32Um4shahXUX29KSMsIJnDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.299</title>
             <pubDate>Thu, 09 Jul 2026 20:48:13 +0000</pubDate>
             <sparkle:version>326</sparkle:version>
