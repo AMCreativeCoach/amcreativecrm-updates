@@ -4,6 +4,32 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.301</title>
+            <pubDate>Fri, 10 Jul 2026 19:31:01 +0000</pubDate>
+            <sparkle:version>328</sparkle:version>
+            <sparkle:shortVersionString>0.1.301</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Capture connections from a filtered search.</b> On a LinkedIn People search filtered to your 1st-degree connections, the extension now imports them into Promotion one page at a time — slice by location, company, or title first, review each page, then capture. Names come in clean.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Promotion Day 0 rewritten.</b> The first message opens with your mission and a genuine feedback ask (no more "quick heads-up"), plus a direct "please share this" referral line. Days 0, 4, and 10 no longer mention price, so contacts discover Alberto's limits on their own.</li>
+<li><b>Safer connections capture.</b> The old per-card "Capture to CRM" buttons no longer appear on your My Network or people-search pages, so connections can't accidentally import as Sales Navigator leads in your main pipeline.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Bulk Profile Import matches by LinkedIn URL.</b> Profiles whose PDF buries the name under a tall "Top Skills" sidebar now match by their <code>/in/</code> handle instead of being skipped.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.301.zip"
+                length="21823885"
+                type="application/octet-stream"
+                sparkle:edSignature="Hn9nHZl8YeKYFC4F2vg2AY27cl+vfUJprpogoIchtj4baT/cRTykoWwy0hZyDFpG7dqpd2CR+bc2LEUxTcGMAg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.300</title>
             <pubDate>Fri, 10 Jul 2026 05:21:04 +0000</pubDate>
             <sparkle:version>327</sparkle:version>
