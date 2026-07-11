@@ -4,6 +4,24 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.302</title>
+            <pubDate>Sat, 11 Jul 2026 13:33:58 +0000</pubDate>
+            <sparkle:version>329</sparkle:version>
+            <sparkle:shortVersionString>0.1.302</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+<li><b>Promotion window redesigned to feel like Leads.</b> Connections are now color-coded by funnel urgency — <b>overdue</b> (red), <b>due</b> (orange), <b>opened</b> (blue), and <b>sent</b> (green) — with the work floating to the top. Mark a connection sent and it turns green and drops to the bottom until its next stage comes due.</li>
+<li><b>Filter your connections.</b> A new filter bar slices by All / Due / Overdue (with live counts) and by funnel day (Day 0 / 4 / 10 / 18 / 30).</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.302.zip"
+                length="21885677"
+                type="application/octet-stream"
+                sparkle:edSignature="V1TYI6hr1IfMAA86y4VE6q9NKKNlf63j8DgNaIVCsKmEsLo37ZrufZMrQJCRWrMc5Yf2CMTXChL9REZ2lPt2Dw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.301</title>
             <pubDate>Fri, 10 Jul 2026 19:31:01 +0000</pubDate>
             <sparkle:version>328</sparkle:version>
