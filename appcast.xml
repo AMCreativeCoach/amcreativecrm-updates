@@ -4,6 +4,28 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.303</title>
+            <pubDate>Wed, 15 Jul 2026 22:48:25 +0000</pubDate>
+            <sparkle:version>330</sparkle:version>
+            <sparkle:shortVersionString>0.1.303</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Fixed a crash when deleting a lead.</b> Removing a lead while a view still referenced it — with its interaction timeline open, or when a delete synced in from your other Mac — could crash the app. It no longer does.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Automation Center: draft your selection on demand.</b> A new "Draft N undrafted" button drafts the picked LinkedIn leads that don't have a message staged yet — even ones that aren't "due."</li>
+<li><b>Automation Center: open your whole selection at once.</b> A hand-picked selection now opens up to 15 composers in one click instead of 5 (the automatic queue keeps its tab throttle).</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.303.zip"
+                length="21887694"
+                type="application/octet-stream"
+                sparkle:edSignature="i6/A4fKf7oSON34J30BfuX/ZEhIrB3q261J+ykwOEitpL00pu7OjHdCrvpOEnDgR0m7d1nbwYAEkC3dE5dcMAw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.302</title>
             <pubDate>Sat, 11 Jul 2026 13:33:58 +0000</pubDate>
             <sparkle:version>329</sparkle:version>
