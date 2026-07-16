@@ -4,6 +4,23 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.304</title>
+            <pubDate>Thu, 16 Jul 2026 03:40:44 +0000</pubDate>
+            <sparkle:version>331</sparkle:version>
+            <sparkle:shortVersionString>0.1.304</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Fixed a crash when merging a duplicate lead.</b> Merging deletes the duplicate, and the merge list re-rendered that just-deleted row and crashed. The same guard is applied to the lead detail view, so a lead being merged or deleted underneath an open view no longer takes the app down.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.304.zip"
+                length="21887277"
+                type="application/octet-stream"
+                sparkle:edSignature="XukzYkFd+iWq0jVPmtnytcIEUtrEkQc0345OFue6RXneRYkXVmuU14+Fpsb4+TDaMtpY+EjSRRgDmmYQhpH0Ag==" />
+        </item>
+
+        <item>
             <title>Version 0.1.303</title>
             <pubDate>Wed, 15 Jul 2026 22:48:25 +0000</pubDate>
             <sparkle:version>330</sparkle:version>
