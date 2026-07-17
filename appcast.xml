@@ -4,6 +4,29 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.305</title>
+            <pubDate>Fri, 17 Jul 2026 02:28:02 +0000</pubDate>
+            <sparkle:version>332</sparkle:version>
+            <sparkle:shortVersionString>0.1.305</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+<li><b>The automatic LinkedIn draft now matches the AI-chat "LinkedIn Proposal" button exactly.</b> Auto-drafting from the Leads workspace and the funnel picker uses the same prompt as the chat quick action — full verbatim testimonial, your story, sign-off, and the per-type call to action. One source of truth.</li>
+<li><b>Auto-drafting waits for the profile.</b> Leads still marked "Profile Needed" are skipped by the automatic drafter (not enough context for a good draft yet) and become eligible the moment their profile attaches.</li>
+<li><b>Sturdier LinkedIn selections in the Automation Center.</b> A hand-picked selection is no longer trimmed by the pipeline-phase picker, opens up to 15 composers in one click (instead of 5), and new <b>Draft undrafted</b> / <b>Redraft all</b> buttons draft or re-draft the whole selection on demand.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Alberto leads no longer re-import in a loop.</b> The Gmail message ID the importer dedups on now syncs between your Macs, so a person imported on one Mac is recognized as already imported on the other — ending the repeated "possible merge" prompts for the same lead. <i>One-time step: run the updated schema SQL (Settings &rarr; Sync &rarr; Copy full-sync schema SQL) in Supabase, and update both Macs.</i></li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.305.zip"
+                length="21887053"
+                type="application/octet-stream"
+                sparkle:edSignature="Q74SgID1c12UYruc2JxjPfaUbbPfCveXxMmaoxLjQnxiwKZBTGGd39RpucN91yNOTb+lFl75BtGgdLNHH5+GAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.304</title>
             <pubDate>Thu, 16 Jul 2026 03:40:44 +0000</pubDate>
             <sparkle:version>331</sparkle:version>
