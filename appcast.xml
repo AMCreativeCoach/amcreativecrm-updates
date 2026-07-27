@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.306</title>
+            <pubDate>Mon, 27 Jul 2026 11:36:29 +0000</pubDate>
+            <sparkle:version>333</sparkle:version>
+            <sparkle:shortVersionString>0.1.306</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3><ul><li>Custom email campaigns now match the templated ones: an automatic sender, a required header image centered at the top, and the branded signature and footer.</li><li>The custom campaign body is now a rich-text editor with bold, italic, underline, preserved line breaks, and hyperlinks (Cmd+K to link selected text). Dark-mode text is now legible.</li><li>Scheduled custom campaigns now appear under Upcoming immediately.</li></ul><h3>Bug fixes</h3><ul><li>Fixed a crash when merging duplicate leads, and hardened the same crash across the promotion list, dashboard, weekly report, and survey lookups.</li><li>The LinkedIn automator now includes any lead with a LinkedIn profile URL, not only LinkedIn-sourced leads.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.306.zip"
+                length="21932961"
+                type="application/octet-stream"
+                sparkle:edSignature="P6eQ27haLJYvVXWbB06K3SjD3b2oj2sTKt/ckfGMQWzlo+yylQ6iBHMNwjpunLdmrEqqyrAt6G6N7dZXJzRyCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.305</title>
             <pubDate>Fri, 17 Jul 2026 02:28:02 +0000</pubDate>
             <sparkle:version>332</sparkle:version>
