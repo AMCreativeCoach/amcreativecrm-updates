@@ -4,6 +4,23 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.308</title>
+            <pubDate>Wed, 29 Jul 2026 20:14:32 +0000</pubDate>
+            <sparkle:version>335</sparkle:version>
+            <sparkle:shortVersionString>0.1.308</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Changes</h3>
+<ul>
+<li><b>Alberto coupons wound down</b> — follow-ups no longer include a discount code (they pitch the free Alberto tier), and the app no longer creates coupons or promotion codes in Stripe. Redemption tracking for already-issued codes is unchanged.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.308.zip"
+                length="21931559"
+                type="application/octet-stream"
+                sparkle:edSignature="MmjXzzzHBiZLGElQJGxnklYIPYzOjg/MbEvfjJzdd5iTQu+UIeF/2R3TZzfnxMpUJMQXHx5yyWmpzWSjlO1iCQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.307</title>
             <pubDate>Wed, 29 Jul 2026 17:40:24 +0000</pubDate>
             <sparkle:version>334</sparkle:version>
