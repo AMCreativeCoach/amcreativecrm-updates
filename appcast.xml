@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.307</title>
+            <pubDate>Wed, 29 Jul 2026 17:40:24 +0000</pubDate>
+            <sparkle:version>334</sparkle:version>
+            <sparkle:shortVersionString>0.1.307</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New</h3>
+<ul>
+<li><b>Lead positioning &amp; projected revenue</b> — each lead now shows a best-fit recommended service and a projected funnel value, with the reasoning behind it.</li>
+<li><b>Marketplace &ldquo;Needs Review&rdquo; hold</b> — referral / personalized marketplace leads get a red &ldquo;Needs Review&rdquo; badge and their follow-up funnel is held until you Proceed.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>LinkedIn fast-lane follow-ups</b> are now 5 touches on a tighter Day 0/1/3/5/7 schedule, adding a Day-5 values-sort check-in.</li>
+<li><b>Cleaner toolbars</b> — rebuilt the Leads and Lead-detail toolbars (primary actions + overflow), added composer button tooltips, a segmented AI-inspector switcher, and a 5-item iPhone tab bar.</li>
+<li>Discovery Call CTA now points to amcreativecoach.com/call.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Team sync no longer drops the newest follow-ups (paginated past the 1,000-row cap) and no longer overwrites agent-filled briefing / location / career fields on push.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.307.zip"
+                length="21972130"
+                type="application/octet-stream"
+                sparkle:edSignature="jUI+uLiQiQq2OVU6U5pcrYDbPtvq1BPqwGxqiNaQZHbbxZCUNoD+sAcBLpDZflNF0FzjHJKw6hXgXciaeqn7Ag==" />
+        </item>
+
+        <item>
             <title>Version 0.1.306</title>
             <pubDate>Mon, 27 Jul 2026 11:36:29 +0000</pubDate>
             <sparkle:version>333</sparkle:version>
