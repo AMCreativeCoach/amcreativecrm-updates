@@ -4,6 +4,32 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.309</title>
+            <pubDate>Thu, 30 Jul 2026 03:53:22 +0000</pubDate>
+            <sparkle:version>336</sparkle:version>
+            <sparkle:shortVersionString>0.1.309</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Fixed a crash when deleting a social post.</b> Three places used a stale list position after the list had changed; deleting could also have written a redraft onto the wrong post.</li>
+</ul>
+<h3>New</h3>
+<ul>
+<li><b>Campaign Studio</b> (Marketing &rsaquo; Social) — paste one long-form anchor and get the week&rsquo;s cuts: a 6-slide carousel, a 45&ndash;60s video script, a Threads two-liner, a Facebook trim, and the LinkedIn first comment. Creates a draft per channel.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Social cards now export 4:5 by default</b> so Instagram feed posts publish automatically instead of falling back to a manual notification. 9:16 stays available for Stories, Reels, and TikTok.</li>
+<li>The agreed posting cadence (LinkedIn Tue/Wed/Thu 7:45 AM, Threads weekdays 12:30 PM, Instagram Tue/Thu/Sat, TikTok Wed/Sun, Facebook Wed/Sat) is now encoded, ready for automatic scheduling.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.309.zip"
+                length="22133964"
+                type="application/octet-stream"
+                sparkle:edSignature="Gkb9eWWEQPw208sS3r8+IcaNNAggjNAnE44C8dx/Rvukp+4A1bIeMOQNQ0pYTw9D2uWEkuhN6qK9bwdZU2InDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.308</title>
             <pubDate>Wed, 29 Jul 2026 20:14:32 +0000</pubDate>
             <sparkle:version>335</sparkle:version>
