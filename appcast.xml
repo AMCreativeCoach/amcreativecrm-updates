@@ -4,6 +4,42 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.311</title>
+            <pubDate>Thu, 10 Sep 2026 02:37:02 +0000</pubDate>
+            <sparkle:version>338</sparkle:version>
+            <sparkle:shortVersionString>0.1.311</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><strong>Zoom webinar registrant sync.</strong> A new Webinars tab tracks Zoom meetings with registration switched on. Every fifteen minutes it pulls registrants, creates or attaches leads, and pushes each person to MailerLite with their own join link. After a session it reads Zoom's participant report and files everyone into an Attended or No-show group, which is what routes the two different follow-ups.</li>
+<li><strong>Three separate consents, none implying the others.</strong> Registering permits email about that event; the newsletter answer governs the marketing list; a discovery-call request governs the call follow-up. Someone can ask for a call and decline the newsletter, and that pair works. Anything not positively recognised as a yes counts as no, including an answer nobody anticipated.</li>
+<li><strong>Select all invitees</strong> in the Safari extension, for LinkedIn event invite lists. Ticks every connection LinkedIn will allow and stops — you still press Invite.</li>
+<li><strong>Expand</strong> on received emails in the History Inspector, for messages too long to read in the preview.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>The CRM's AI knows the full offer ladder and the Layoff Intensive positioning.</li>
+<li>Threaded email replies are recorded in the lead's timeline.</li>
+<li>Zoom's Test connection reports which scopes were actually granted, so a credential problem and a missing scope no longer look alike.</li>
+<li>MailerLite fields are per session, so someone registered for both sessions gets each session's own join link rather than the later one twice.</li>
+<li>A Mac can hand the Zoom sync to another machine — Disconnect this Mac clears the credentials and stops the poll there.</li>
+<li>Meeting IDs can be pasted the way Zoom displays them, spaces and all.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>A lead's commitment score could climb on its own — twenty points every fifteen minutes to its ceiling — because a webinar registration was re-counted on every poll instead of once.</li>
+<li>A registrant created alongside a new lead was not linked to it.</li>
+<li>Clicking Sync could grow the window to the full height of the display with no way to shrink it back.</li>
+<li>A proof-stage follow-up could be sent truncated mid-sentence: the completeness check looked only for the closing link.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.311.zip"
+                length="31307571"
+                type="application/octet-stream"
+                sparkle:edSignature="TK6/mrypoYBdzz5SgIuuFli9MpV54u0wgRI9/GwjBpy4Ia9QPSVDXn3osMi4KbLu1/WviCyNAdhEEdYnyBbEDA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.309</title>
             <pubDate>Thu, 30 Jul 2026 03:53:22 +0000</pubDate>
             <sparkle:version>336</sparkle:version>
