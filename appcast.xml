@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.314</title>
+            <pubDate>Thu, 10 Sep 2026 08:45:06 +0000</pubDate>
+            <sparkle:version>341</sparkle:version>
+            <sparkle:shortVersionString>0.1.314</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><strong>Webinar emails now send on their own.</strong> Day before (20 to 26 hours out), one hour before (40 to 75 minutes out), and the attendee or no-show follow-up once attendance is reconciled after the session. A touch whose window has closed is skipped rather than sent late, because a "starting in an hour" that arrives afterwards is worse than silence.</li>
+<li><strong>The poll speeds up near a session.</strong> Every fifteen minutes normally, every two minutes in the 100 minutes before a session starts, so the one-hour email lands near the hour rather than anywhere from 40 to 70 minutes out.</li>
+<li><strong>Follow-ups skip people who have already applied</strong> to the October cohort. The second touch and the final close only go to attendees who haven't, and neither sends after applications close on 30 September.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Nothing sends twice. Each email writes a record into the lead's timeline, and that record is what stops a repeat — so it holds across a restart and across Macs. Someone registered for both sessions gets both reminders, each with its own join link, but only one of each follow-up.</li>
+<li>Someone who registers shortly before a session gets the one-hour reminder and not a day-before email that would arrive too late.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li>Safari extension: Select all invitees no longer gets stuck after the extension updates. It is still being worked on — it runs, but it cannot yet see LinkedIn's invite list.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.314.zip"
+                length="31505141"
+                type="application/octet-stream"
+                sparkle:edSignature="ENyuBh6Eua7q0Hw0sXOU0TwC3a6AominGwEfrujVJvdbi9q+KXn15+BIFbrNcotpHZMUidaz9gi1diTku3HaAw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.313</title>
             <pubDate>Thu, 10 Sep 2026 05:09:11 +0000</pubDate>
             <sparkle:version>340</sparkle:version>
