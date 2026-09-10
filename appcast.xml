@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.313</title>
+            <pubDate>Thu, 10 Sep 2026 05:09:11 +0000</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>0.1.313</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><strong>Webinar emails are sent by the CRM.</strong> Six templates through your Gmail: day before, one hour before, attendee follow-up, no-show follow-up, attendee second touch and final close. MailerLite drops to the newsletter only. This also keeps each person's Zoom join link off a third party entirely; it goes from the Mac's Keychain into the message and nowhere else.</li>
+<li><strong>Preview emails</strong> in the Webinars toolbar. Renders any of the six against a real registrant, in HTML or plain text, and sends a copy to you with [TEST] on the subject. It also lists what a real send would refuse to do, so a follow-up with no recording link says so rather than looking fine.</li>
+<li><strong>What this Mac does</strong> in Settings ▸ Zoom. Three switches — poll Zoom, send the emails, push to MailerLite — so one machine can run the automation while the others just watch. Viewing never depended on them: events, registrants and attendance sync to every Mac either way.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>The attendee follow-up states the Intensive's structure and dates the way Adam confirmed them, and no longer carries a session count and an end date that contradicted each other.</li>
+<li>Removing Zoom credentials is now clearly separate from turning the sending off, and says which one you probably want.</li>
+</ul>
+<h3>Note</h3>
+<ul>
+<li>Nothing fires automatically yet. The six emails can be previewed and test-sent; the scheduler that sends them at 24h, 1h and post-event is still to come.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.313.zip"
+                length="31465005"
+                type="application/octet-stream"
+                sparkle:edSignature="Czu4RMZZj6OvHovvhM+QkQrYRoXjp7I0uwK3/vR7TQuYmtxhyFATuS9c+22bHc046OKt+/3EIgq4R8dTirMwAQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.312</title>
             <pubDate>Thu, 10 Sep 2026 03:06:13 +0000</pubDate>
             <sparkle:version>339</sparkle:version>
