@@ -4,6 +4,29 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.312</title>
+            <pubDate>Thu, 10 Sep 2026 03:06:13 +0000</pubDate>
+            <sparkle:version>339</sparkle:version>
+            <sparkle:shortVersionString>0.1.312</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+<li><strong>Webinar events and registrants now sync between Macs.</strong> They previously lived only on the machine that created them: the entities were in the CloudKit-backed model configuration, but CloudKit was retired in v0.1.274 and Supabase carried only leads and follow-ups. Both now ride the generic Supabase sync, so either Mac can add an event and both see the same registrants and attendance.</li>
+<li>A Mac can hand the Zoom sync to another machine — <em>Disconnect this Mac</em> in Settings ▸ Zoom clears the credentials and stops the poll there. Only one machine should hold them, since a second push re-files registrants into MailerLite.</li>
+</ul>
+<h3>Note</h3>
+<ul>
+<li>Zoom join links deliberately do not sync. They stay in each machine's own Keychain, and whichever machine is polling re-fetches them from Zoom — which is what keeps them out of exports, logs and the database.</li>
+<li>Requires two new Supabase tables; Settings ▸ Supabase ▸ Copy full-sync schema SQL covers them.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.312.zip"
+                length="31307630"
+                type="application/octet-stream"
+                sparkle:edSignature="c02RuauA48Z8CHyXS55fuRtrDobgn+x1AMRV9uW79M1OvmO6NvwdC4z1aw78sZytPic0TiGlvDmw/JQFQJkzDg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.311</title>
             <pubDate>Thu, 10 Sep 2026 02:37:02 +0000</pubDate>
             <sparkle:version>338</sparkle:version>
