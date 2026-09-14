@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.315</title>
+            <pubDate>Mon, 14 Sep 2026 17:06:02 +0000</pubDate>
+            <sparkle:version>342</sparkle:version>
+            <sparkle:shortVersionString>0.1.315</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li>Webinars: people who click Attend on a session's LinkedIn event now appear in that session's registrant list as pending ("RSVP'd on LinkedIn, not on Zoom yet"), added automatically by the LinkedIn agent.</li></ul><h3>Improvements</h3><ul><li>When a pending LinkedIn RSVP registers in Zoom, their row becomes the Zoom registration and their lead picks up the email, instead of creating a duplicate.</li><li>Safari extension 2.3: Select all invitees now finds LinkedIn's invite list.</li></ul><h3>Bug fixes</h3><ul><li>MailerLite push and attendance matching skip registrants who have no email yet.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.315.zip"
+                length="31512215"
+                type="application/octet-stream"
+                sparkle:edSignature="EX/WWHjUglZnEE2Y4lrOeZKa0MVaUP+T22mjLkdRgdxktLE7oNlgMgQd/uxrumMJpR20wMKbtB0LeXjYBsXhAQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.314</title>
             <pubDate>Thu, 10 Sep 2026 08:45:06 +0000</pubDate>
             <sparkle:version>341</sparkle:version>
