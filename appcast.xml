@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.316</title>
+            <pubDate>Mon, 14 Sep 2026 19:42:49 +0000</pubDate>
+            <sparkle:version>343</sparkle:version>
+            <sparkle:shortVersionString>0.1.316</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li>Settings → Supabase → <b>Rebuild this Mac from Supabase…</b>: for a Mac whose data has drifted from the team's. On the next launch its database is moved to a safety folder (Application Support/PreRebuild-…) and a fresh copy is pulled from Supabase before anything else starts.</li></ul><h3>Improvements</h3><ul><li>Webinars → Sync now also runs the Supabase sync, so deletions and other Macs' changes arrive, and the status bar shows whether deletions were applied.</li><li>The webinar loop syncs Supabase at least every ten minutes on the Mac running it, so an unattended Mac no longer sits on stale lists.</li><li>A sync that starts while another is running now waits for it instead of being skipped.</li></ul><h3>Bug fixes</h3><ul><li>A record deleted on one Mac is no longer re-created on others when a Mac that missed the delete uploads it again.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.316.zip"
+                length="31544932"
+                type="application/octet-stream"
+                sparkle:edSignature="kce56Mql4lI8l6GVTCzJQYTkc7qEhlI4eUlnfsO+fcvx0J1yjQ5WVikZSbyuah3O4/u/LU6Oyb8YNgf5nrXlCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.315</title>
             <pubDate>Mon, 14 Sep 2026 17:06:02 +0000</pubDate>
             <sparkle:version>342</sparkle:version>
