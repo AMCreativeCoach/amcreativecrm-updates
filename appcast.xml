@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.317</title>
+            <pubDate>Tue, 15 Sep 2026 04:19:13 +0000</pubDate>
+            <sparkle:version>344</sparkle:version>
+            <sparkle:shortVersionString>0.1.317</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li>Facebook event RSVPs: people who RSVP to a webinar session's Facebook event are added by the LinkedIn agent as <b>Facebook event</b> leads, and appear on that session's registrant list as pending ("RSVP'd on Facebook, not on Zoom yet") until they register in Zoom.</li><li>New <b>Facebook</b> contact channel: the agent's Facebook thank-yous and reminders show on each lead's timeline as "Facebook message sent".</li></ul><h3>Improvements</h3><ul><li>When a pending LinkedIn or Facebook RSVP registers in Zoom, their row becomes the Zoom registration instead of a duplicate, whichever platform it came from.</li><li>The AI assistant knows how to talk about a Facebook event lead: reference the session, never how they were found, and focus on getting them registered.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.317.zip"
+                length="31546566"
+                type="application/octet-stream"
+                sparkle:edSignature="vw8L/V055mMk1aaydr6T1S/nn+bCg08PyXULw3pozhjen+FCC+kPJBU7eHLE8fDchjOa+buGpwWIWH3P7lTmAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.316</title>
             <pubDate>Mon, 14 Sep 2026 19:42:49 +0000</pubDate>
             <sparkle:version>343</sparkle:version>
