@@ -4,6 +4,26 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.318</title>
+            <pubDate>Wed, 16 Sep 2026 05:10:16 +0000</pubDate>
+            <sparkle:version>345</sparkle:version>
+            <sparkle:shortVersionString>0.1.318</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Importing a résumé or intake form while editing a lead no longer loses what it found.</b> Edit mode undid the import when you tapped Cancel, and because an empty field fills in silently there was nothing on screen to notice. This is what blanked a lead email address — which quietly stopped that person's replies appearing in Needs You, since the inbox scan only searches addresses it has on file.</li>
+<li><b>Sync no longer lets a Mac with an empty field blank it everywhere.</b> Name, email, phone, LinkedIn URL and notes now follow the same rule the briefing already did: an empty value never replaces a filled one.</li>
+<li><b>"Rebuild this Mac from Supabase" now switches iCloud sync off first.</b> Without it the rebuild undid itself — Supabase refilled the database and iCloud then mirrored the Mac's old copy back in on top, leaving two of every lead and webinar session.</li>
+<li><b>"Import from file" on a lead now opens the Mac's own file picker</b>, so it appears every time instead of silently doing nothing.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.318.zip"
+                length="31537283"
+                type="application/octet-stream"
+                sparkle:edSignature="XXRGQ+7coVzsPXKIxaPjPzu6BnOn5MbryoPpELomOpAIp7aHKFLsH6hVfOYdKtqewjhf9NWlvDl/w9F5V0VgAg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.317</title>
             <pubDate>Tue, 15 Sep 2026 04:19:13 +0000</pubDate>
             <sparkle:version>344</sparkle:version>
