@@ -4,6 +4,36 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.319</title>
+            <pubDate>Thu, 17 Sep 2026 20:45:29 +0000</pubDate>
+            <sparkle:version>346</sparkle:version>
+            <sparkle:shortVersionString>0.1.319</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Coaching clients now track the relationship, not just the sessions.</b> A client has a programme (group, private 1:1, intensive, or several at once), a status (active, on hold, completed) and a contract status (none, sent, signed) with its dates. Putting someone on hold records when, so it reads "on hold since June".</li>
+<li><b>New Progress tab on each client.</b> The role they landed with company and start date, promotions, interviews and offers, salary before and after with the raise as a percentage, and a checklist of what they are working toward between sessions.</li>
+<li><b>Clean up for leads.</b> A review of everyone who has gone quiet, grouped by why: their sequence finished, they were never contacted, or they went quiet. Nothing is archived until you press the button, and archiving is reversible.</li>
+<li><b>A booked discovery call now moves the lead to Discovery</b> and brings its Acuity intake answers onto the lead, so someone with a call on the calendar no longer reads as an untouched inquiry.</li>
+<li><b>Needs You shows a booked call whose intake you have not read</b>, counting down to the call rather than up from a message.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Opening a lead from an email no longer freezes the app.</b> It pinned the main thread until force-quit, for any lead.</li>
+<li><b>Archived leads no longer count in the Dashboard "Needs You" tile</b>, which showed a different number from the list under the same label.</li>
+<li><b>Sync no longer lets a Mac with an empty field blank it everywhere</b> for names, email, phone, LinkedIn URL and notes.</li>
+<li><b>"Rebuild this Mac from Supabase" switches iCloud sync off first</b>, so the old copy cannot mirror itself back in and leave two of everything.</li>
+<li><b>Importing a resume or intake form while editing a lead no longer loses what it found</b> when you press Cancel.</li>
+<li><b>Faster throughout:</b> the leads list built its Follow-ups badge with eight full passes over every lead on each keystroke, the coaching intake screen read every attachment in the database on each keystroke, and several screens derived the same numbers twice per render.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.319.zip"
+                length="31832992"
+                type="application/octet-stream"
+                sparkle:edSignature="+ArW2g/VMmzLWcdq+QX/x/6HbpTmlYTuGG0n49AgTECzy12qj37HfIsf7okPFgnmzOFtZL9QLiOuVFoKUEPdDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.318</title>
             <pubDate>Wed, 16 Sep 2026 05:10:16 +0000</pubDate>
             <sparkle:version>345</sparkle:version>
