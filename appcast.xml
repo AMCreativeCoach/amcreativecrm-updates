@@ -4,6 +4,35 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.320</title>
+            <pubDate>Fri, 18 Sep 2026 00:34:47 +0000</pubDate>
+            <sparkle:version>347</sparkle:version>
+            <sparkle:shortVersionString>0.1.320</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Merge leads by hand.</b> Select two or more leads, then Bulk Actions &gt; Merge Selected. It suggests keeping the record with the most history, shows what each one holds, and moves follow-ups, emails, appointments, chat history and imported files onto the one you keep. For the case the automatic finder cannot reach: the same person stored once with an email and once without.</li>
+<li><b>Merge duplicate coaching clients.</b> A button in the Coaching workspace appears when the same person is stored twice. It keeps the record holding their sessions and moves the rest onto it.</li>
+<li><b>Archive a coaching client.</b> Edit a client and choose Archive to move them out of the list without losing anything. "Show archived" brings them back. Completed clients stay visible, since those are the people to ask for a testimonial.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Deleting a coaching client now asks first</b> and says what goes with them, such as their sessions, notes and milestones, on both Macs.</li>
+<li><b>Leads that have gone quiet are marked with a steady tint</b> instead of one that flashed twice a second.</li>
+<li><b>Supabase schema SQL now adds new columns to existing tables</b>, so a field added to something that already syncs reaches Supabase when you run it.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Merging coaching clients no longer crashes the app</b> when the client being merged away is the one on screen.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.320.zip"
+                length="32000609"
+                type="application/octet-stream"
+                sparkle:edSignature="JnIYFY4EyHNlg5oXOGfU6FumzpTbxRgi40nCLZe07PWt6HTZ5gewSE3IS81c3fbxrtVkeAq4YvutiM38u8kuAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.319</title>
             <pubDate>Thu, 17 Sep 2026 20:45:29 +0000</pubDate>
             <sparkle:version>346</sparkle:version>
