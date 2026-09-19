@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.323</title>
+            <pubDate>Sat, 19 Sep 2026 02:22:51 +0000</pubDate>
+            <sparkle:version>350</sparkle:version>
+            <sparkle:shortVersionString>0.1.323</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li>Turn on Alberto Dream for a coaching client from their panel: 1, 3, 6 or 12 months, or a date you choose. It asks first, and you can change the end date later.</li><li>Edit details: one form for a client's name, email, location, career level, package, sessions, links and notes, with Archive and Delete.</li></ul><h3>Improvements</h3><ul><li>A client's Alberto plan is re-checked as soon as their email changes, and the panel says when an email is needed.</li><li>Dream given by hand shows its end date and turns orange once it passes.</li></ul><h3>Bug fixes</h3><ul><li>The coaching client list no longer shows the last converted client in every row.</li><li>Opening Notes &amp; Prep, or a client with no sessions, no longer shifts the whole window.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.323.zip"
+                length="33726154"
+                type="application/octet-stream"
+                sparkle:edSignature="mge535/67xSsjqToHZvO7shW464ZV88MmkMBQs26LpKXyB9IUULD4laV9ae0XKNWHEns1ktZ/IphPVG7/znYCA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.322</title>
             <pubDate>Sat, 19 Sep 2026 01:12:37 +0000</pubDate>
             <sparkle:version>349</sparkle:version>
