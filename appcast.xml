@@ -4,6 +4,48 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.321</title>
+            <pubDate>Sat, 19 Sep 2026 00:47:19 +0000</pubDate>
+            <sparkle:version>348</sparkle:version>
+            <sparkle:shortVersionString>0.1.321</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Coaching:</b> book a client's next session inside the app from your Acuity open times.</li>
+<li><b>Time away:</b> block days off in Acuity from Coaching; sessions that clash are flagged.</li>
+<li><b>Live group sessions:</b> Alberto Dream Live Coaching sessions go on your Google Calendar as Busy, and (once switched on, on one Mac) clients who haven't booked get a reminder two days and 30 minutes before.</li>
+<li><b>Session notes from Zoom:</b> after a coaching session, the Zoom summary is turned into notes with the resources you recommended and a recap email to review and send. There's also Import session notes… for pasting notes or a transcript.</li>
+<li><b>Discovery Calls:</b> the résumé from the Acuity intake is downloaded and read; a Discovery Call card on the lead shows the call, the intake and the résumé; the prep brief now uses all three.</li>
+<li><b>Needs You → Clients:</b> testimonial asks, the Group → private career development offer, post-Discovery follow-ups for converted clients, and session recaps. Clear the list or dismiss a row.</li>
+<li><b>Emails:</b> search, right-click actions, and Previous / Next on an open email.</li>
+<li><b>Go menu:</b> ⌘1–⌘8 for the workspaces, ⌘⌥I for the AI Assistant.</li>
+<li><b>SignWell:</b> API key, connection test and template checklist in Settings (sending comes next).</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>Every send is proofread:</b> Emails replies, recaps and every LinkedIn path show the review window first; applied fixes are highlighted, hover to see what you wrote. Automatic emails get the fixes applied.</li>
+<li>A converted coaching client keeps their recap, survey and testimonial follow-ups.</li>
+<li>Merging leads: nothing stays selected afterwards, different names need a confirmation, and LinkedIn profile links carry over.</li>
+<li>Dashboard pipeline stages open their leads. US English throughout.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Sync:</b> each Mac now sends only what changed on it. Previously an idle Mac overwrote your edits (archived clients kept coming back).</li>
+<li>LinkedIn messages mirrored by the agent were being duplicated in Supabase.</li>
+<li>Acuity classes were never found (group sessions, Dashboard class list).</li>
+<li>Needs You showed "Press return to go to conversation details" instead of the message.</li>
+<li>A LinkedIn reply to a lead whose link was only in the LinkedIn URL field failed.</li>
+<li>Client messages in an email thread had no card; Webinars was missing on iPhone.</li>
+<li>Test runs no longer touch the Mac's real data.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.321.zip"
+                length="33473046"
+                type="application/octet-stream"
+                sparkle:edSignature="lCuPLPMRXZ7rn3iuU31er+kN7MC0dRJuLD0S/6M0R0/gDe3/i246+sALvyO7JHxjzz7I5r2tpNQI8qwqT8rhBg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.320</title>
             <pubDate>Fri, 18 Sep 2026 00:34:47 +0000</pubDate>
             <sparkle:version>347</sparkle:version>
