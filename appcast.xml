@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.324</title>
+            <pubDate>Sat, 19 Sep 2026 12:54:17 +0000</pubDate>
+            <sparkle:version>351</sparkle:version>
+            <sparkle:shortVersionString>0.1.324</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li>Send contract: send a client their Client Agreement through SignWell with Schedule A filled in from the Welcome Packet (Dream pricing for private sessions), with the covering email proofread first. The contract moves to Signed on its own, and the signed PDF opens from the client panel.</li><li>Create invoice: bill a coaching client through Stripe after they sign. Private sessions and programs paid in full are one emailed invoice; payment plans run exactly 2 or 3 monthly payments and switch to automatic charges once the client pays with a card. Payment page links and paid status show on the client panel.</li><li>Clients feed: a signed agreement prompts you to create the invoice, and an unsigned one gets a nudge after 3 days. Contracts are checked in the background.</li></ul><h3>Improvements</h3><ul><li>Billing can't charge twice or lose track: every Stripe step is recorded as it happens, billing again needs a deliberate switch, and a changed client email reaches Stripe.</li><li>Every send is reviewed once: Timeline Send &amp; advance and the first LinkedIn automation batch now go through the proofread review, and Send can't fire twice.</li><li>Proofreading never edits links, email addresses or HTML.</li><li>Eventbrite auto-send skips leads you've paused or held for review; the workshop recap goes to each person once.</li><li>The Leads list sorts faster.</li></ul><h3>Bug fixes</h3><ul><li>Sync no longer unlinks records whose linked record hasn't arrived yet, overwrites what you're typing during a sync, or loses follow-ups when a save fails.</li><li>A failed delete no longer deletes the record on the other Mac.</li><li>A new database field no longer stops a record type syncing before the Supabase schema is updated.</li><li>Fixed a possible crash when a session was deleted during a Zoom notes import.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.324.zip"
+                length="34465817"
+                type="application/octet-stream"
+                sparkle:edSignature="BwnpAHHg6ihGUVIBg49LoDPbfz98itxtq4cA/bBEKq1UiIDAoWRQgYsdBPKH6mjfgw86BdbjlxrrrXWSi+z4Bw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.323</title>
             <pubDate>Sat, 19 Sep 2026 02:22:51 +0000</pubDate>
             <sparkle:version>350</sparkle:version>
