@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.322</title>
+            <pubDate>Sat, 19 Sep 2026 01:12:37 +0000</pubDate>
+            <sparkle:version>349</sparkle:version>
+            <sparkle:shortVersionString>0.1.322</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li>Each coaching client now shows their Alberto plan (Dream, Pro, Free, or no account), read from Alberto when you open them.</li><li>Live group session reminders: two days before, every active client hears about the session. Clients with Alberto Dream get the booking link; everyone else learns how the book unlocks three months of Dream. The 30-minute last call goes to Dream clients only.</li></ul><h3>Improvements</h3><ul><li>Reminders check each client's plan right before sending, and send nothing if Alberto can't be reached.</li><li>Settings previews both versions of the two-day email.</li></ul><h3>Bug fixes</h3><ul><li>Imported Zoom session notes are checked after saving and restored in full if they were stored cut short.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.322.zip"
+                length="33586958"
+                type="application/octet-stream"
+                sparkle:edSignature="GhB3XFEFPSghc/oF/c77S0AQ7QodqYzoB6oZdwSu9zmfWhEami4Y6IyZyGbaUx1orSbHI0MgBn1hSGSSKAJXAQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.321</title>
             <pubDate>Sat, 19 Sep 2026 00:47:19 +0000</pubDate>
             <sparkle:version>348</sparkle:version>
