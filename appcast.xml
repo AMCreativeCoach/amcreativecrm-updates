@@ -4,6 +4,42 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.326</title>
+            <pubDate>Sat, 19 Sep 2026 16:52:15 +0000</pubDate>
+            <sparkle:version>353</sparkle:version>
+            <sparkle:shortVersionString>0.1.326</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version 0.1.326</h2>
+<h3>New features</h3>
+<ul>
+<li><strong>Messages:</strong> answer your Layoff Intensive and Executive Track clients' Alberto messages right in the CRM. Replies are proofread and confirmed, then arrive in the Alberto app like any message from you. Set your Away message from the toolbar.</li>
+<li><strong>Message banners:</strong> a notification when a lead or client writes on LinkedIn, by email, on Facebook or in Alberto, and the Dock badge matches Today.</li>
+<li><strong>Facebook replies:</strong> messages from leads and clients on Facebook now show on Today, with a Reply in Messenger button.</li>
+<li><strong>Alex's status</strong> on Today: running, paused or quiet.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><strong>One look everywhere:</strong> every workspace now has Today's background, a big page header with a live summary, and card-style lists.</li>
+<li><strong>Alex needs you</strong> shows how long each item has waited, newest first.</li>
+<li><strong>Clients' messages count:</strong> a coaching client writing on any channel now shows in Waiting on you.</li>
+<li><strong>Coaching paid</strong> shows real invoices only; the test billing is gone.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>New leads · 7 days</strong> no longer counts every lead after a rebuild; request dates are restored from Supabase.</li>
+</ul>
+<h3>After updating</h3>
+<ul>
+<li>Run <strong>Settings → Supabase → Copy full-sync schema SQL</strong> once in Supabase (stage dates and Alex's status).</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.326.zip"
+                length="36058562"
+                type="application/octet-stream"
+                sparkle:edSignature="uICKK87pYI8bqgmzG4PUY+B+3y0TXy9fsS8C3M8s/PZHmHdEAxaYWJTLbEZTwoayjMB2tQI8fuCYb27Gz8LtBw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.325</title>
             <pubDate>Sat, 19 Sep 2026 15:11:08 +0000</pubDate>
             <sparkle:version>352</sparkle:version>
