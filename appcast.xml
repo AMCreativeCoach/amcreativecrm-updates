@@ -4,6 +4,42 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.325</title>
+            <pubDate>Sat, 19 Sep 2026 15:11:08 +0000</pubDate>
+            <sparkle:version>352</sparkle:version>
+            <sparkle:shortVersionString>0.1.325</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Version 0.1.325</h2>
+<h3>New features</h3>
+<ul>
+<li><strong>Today</strong> replaces the Dashboard: "Good morning" with a one-line summary of your day, today's schedule, and five cards for the health of the business (new leads, warm pipeline, coaching paid, clients, Alberto).</li>
+<li><strong>Reply from Today:</strong> everyone waiting on you, with what they said, and their conversation and reply box right beside the list. Reply, mark replied (⌘⌫) or snooze, and the next person comes up. Every send still goes through the proofreader and your confirmation.</li>
+<li><strong>Alex needs you:</strong> leads Alex held for review, paused funnels, drafted follow-ups, session recaps and unbilled contracts in one list, plus whether Alex is running.</li>
+<li><strong>Boards:</strong> Leads and Clients each have a List / Board switch. Drag a lead between stages; Won makes them a client.</li>
+<li><strong>Stage tracker without Edit:</strong> tap a stage on a lead to see what it's for and move them. "Move to Stage" is also on right-click and in bulk actions.</li>
+<li><strong>Events:</strong> Zoom webinars, Eventbrite workshops and group coaching in one list.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><strong>New look</strong> in Alberto's purple and General Sans headings, with Alberto navy in dark mode.</li>
+<li><strong>Simpler sidebar:</strong> Today, People, Communicate, Grow and Tools, with counts. The pipeline filters are gone.</li>
+<li><strong>Calmer Leads list:</strong> a face, one status chip and a thin colored edge per lead instead of nine background colors (classic colors are in the Leads More menu).</li>
+<li><strong>Lead page</strong> rebuilt around the conversation, with quick actions and Conversation, Briefing, Details and Files tabs.</li>
+<li><strong>Marketing</strong> is one grouped list with a single New menu; email, engagement and the library no longer need Buffer.</li>
+<li>Social graphics use Alberto's purple. Bigger, easier-to-read text on the new screens.</li>
+</ul>
+<h3>After updating</h3>
+<ul>
+<li>Run <strong>Settings → Supabase → Copy full-sync schema SQL</strong> once in Supabase, so stage dates and Alex's status sync.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.325.zip"
+                length="35618038"
+                type="application/octet-stream"
+                sparkle:edSignature="Xaj/yEgt4EElOnH1EtYZIpPPcFZzJLM1ZLwzdMWhGuSB4NgFLgShOI8cvFVn/m9hAxnBm/vBAUQ1zTWaLp8+Bw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.324</title>
             <pubDate>Sat, 19 Sep 2026 12:54:17 +0000</pubDate>
             <sparkle:version>351</sparkle:version>
