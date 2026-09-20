@@ -4,6 +4,23 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.329</title>
+            <pubDate>Sun, 20 Sep 2026 22:48:28 +0000</pubDate>
+            <sparkle:version>356</sparkle:version>
+            <sparkle:shortVersionString>0.1.329</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Arrow keys stay in the composer you're typing in.</b> The lead page's Conversation tab holds the reply box inside the page, and the page uses the arrow keys to move between leads — so pressing ↓ on the last line of a reply jumped to the next lead mid-sentence. Every place the arrows move something (the lead page, the Today queue, the Messages and Clients lists, the Marketing rail, the calendar) now stands down while a text field or editor has the keyboard.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.329.zip"
+                length="37601310"
+                type="application/octet-stream"
+                sparkle:edSignature="Z9tVyUU96dhUZ/7Hm+LdYYifYq7xUity+lAHFakavO4Uj23j/roOvStcR9sBlA9d2oCJMhkkeLD3ebf6kDCmDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.328</title>
             <pubDate>Sun, 20 Sep 2026 20:52:23 +0000</pubDate>
             <sparkle:version>355</sparkle:version>
