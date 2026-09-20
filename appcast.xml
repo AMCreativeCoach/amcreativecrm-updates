@@ -4,6 +4,24 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.328</title>
+            <pubDate>Sun, 20 Sep 2026 20:52:23 +0000</pubDate>
+            <sparkle:version>355</sparkle:version>
+            <sparkle:shortVersionString>0.1.328</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+<li><b>Daily backups stop eating the disk.</b> Each day's snapshot embedded every résumé, signed contract and photo, so one file ran 1.4 GB and thirty of them held 24 GB on the Mac and 14 GB on the mini — thirty copies of files that are already in the database, in Supabase and in CloudKit. The daily snapshot now keeps the records only, a few tens of MB, and a manual export (Settings → Backup) still writes everything for a bare-machine restore.</li>
+<li><b>Old snapshots clear themselves.</b> On every launch the app removes the oversized ones and anything past the window, keeping the two newest as the escape hatch. Retention is now 14 days instead of 30. Nothing to delete by hand.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.328.zip"
+                length="37603643"
+                type="application/octet-stream"
+                sparkle:edSignature="AIL4/Is7mAhnrZuE1Nw2CfFnUTuU5xnsSwPHoeCHZHU/N04+M/HdMbNLfp2W1yjfWYSEekFi93wsd+5FzTB8CQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.327</title>
             <pubDate>Sun, 20 Sep 2026 15:11:15 +0000</pubDate>
             <sparkle:version>354</sparkle:version>
