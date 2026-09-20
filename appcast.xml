@@ -4,6 +4,47 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.327</title>
+            <pubDate>Sun, 20 Sep 2026 15:11:15 +0000</pubDate>
+            <sparkle:version>354</sparkle:version>
+            <sparkle:shortVersionString>0.1.327</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>A real calendar.</b> Day and Week are hour grids with a now line and all-day row; Month shows event titles instead of dots. Click an event for the person, Join Zoom, their Acuity intake form and résumé, and Reschedule or Cancel; click an empty slot to book a discovery call or coaching session at a time Acuity actually has open. Your Google Calendar shows alongside, read-only.</li>
+<li><b>Bookings tell you.</b> Acuity is watched while the app is open, so a call booked minutes ago arrives with a banner, a "Just booked" lane on Today, and prep reminders the evening before and an hour ahead.</li>
+<li><b>"Is this them?"</b> A booking that matches nobody now suggests who it probably is by name and email, and one click links them — which is what brings their intake form and résumé in.</li>
+<li><b>Sent email is kept.</b> Every message you send is stored on the lead or client it went to.</li>
+<li><b>Boards: shift-click to select several cards</b> and drag or move them together.</li>
+<li><b>Alex explains a hold.</b> Each lead on hold says why in one line, with the one action to take, plus Delete Record for people who aren't coaching leads.</li>
+<li>The client page now shows the Acuity intake form and résumé from the lead they came from.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><b>One look everywhere.</b> The same cards, fonts, colors and selection across every screen; toolbars hold only the two panel toggles, with each page's actions in its own header; the sidebar and AI Assistant match the rest of the app.</li>
+<li>Every popup window follows one standard, sized to its content.</li>
+<li><b>Email arrives in about a minute</b> instead of up to an hour, and no longer only while the Emails screen is open.</li>
+<li><b>Today agrees across Macs</b> — marking someone replied or snoozing them now travels.</li>
+<li>Campaign bodies are written on white, the way they land in an inbox; pasted text keeps its bold, italic, links and headings and drops the source's colors; text color now reaches the email.</li>
+<li>Two records for the same person are caught when only one of them has an email address.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>Proofreading no longer deletes words.</b> A suggestion with an empty replacement was applied as written, so a word left the message. Corrections that replace text with nothing are refused.</li>
+<li><b>Proofreading stops missing errors it had just caught.</b> A correction quoted with a straight apostrophe was dropped in silence when the editor had made yours curly. What the preview shows is now exactly what sends, and a misspelling is fixed everywhere it appears.</li>
+<li>"Resume follow-ups" on a held lead does something again.</li>
+<li>Session Prep's Copy and Regenerate buttons were invisible on the Mac; a lead opened from Email had no Done button.</li>
+<li>"Open in Acuity" opens the appointment in Acuity rather than the client's confirmation page.</li>
+<li>Duplicate copies of the same reply are cleaned up on each Mac.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.327.zip"
+                length="37584217"
+                type="application/octet-stream"
+                sparkle:edSignature="sFHnBsWCIBHOZY3rZXMDEqJcJAyjeCQCYvbBeGrvGmD102ccyYPMQ24QdpzLGmrwiHG5kLuJ5gyNk8YaM/HmAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.326</title>
             <pubDate>Sat, 19 Sep 2026 16:52:15 +0000</pubDate>
             <sparkle:version>353</sparkle:version>
