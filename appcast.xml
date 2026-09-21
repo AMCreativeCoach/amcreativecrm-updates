@@ -4,6 +4,23 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.331</title>
+            <pubDate>Mon, 21 Sep 2026 15:21:01 +0000</pubDate>
+            <sparkle:version>358</sparkle:version>
+            <sparkle:shortVersionString>0.1.331</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+<li><b>Webinar RSVPs from LinkedIn and Facebook show up in Events again.</b> Alex was sending reminders to 81 people who'd RSVP'd on LinkedIn or Facebook, but Events showed only the Zoom registrants. The sync remembered those records as already handled and skipped them even after they'd gone missing on this Mac, so they could never come back. Now a record the server has but this Mac is missing is restored — unless it was deleted on purpose, which is always honored, including deletes that haven't uploaded yet.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.331.zip"
+                length="37980635"
+                type="application/octet-stream"
+                sparkle:edSignature="ZKg5hlbMtNbORNlGYJn6KcFL52Y47ZLtQ1pf48GoBGG7N9UAfyPqdtTS79w0r0hLOGq/6ocnq84UtNZE2m0NCQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.330</title>
             <pubDate>Mon, 21 Sep 2026 14:45:29 +0000</pubDate>
             <sparkle:version>357</sparkle:version>
