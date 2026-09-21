@@ -4,6 +4,29 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.330</title>
+            <pubDate>Mon, 21 Sep 2026 14:45:29 +0000</pubDate>
+            <sparkle:version>357</sparkle:version>
+            <sparkle:shortVersionString>0.1.330</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><b>Meet Sam.</b> The assistant is now Sam, and she follows what you're looking at: the client on the Clients screen, the lead you've opened, the person selected on Today, the thread in Messages, the event in the calendar. With nothing selected she's in a general mode for that screen — never a lead you clicked somewhere else. She knows what Alex is doing for the person in focus (running or paused, holding them and why, a reply queued, the next follow-up), and her suggested actions fit the moment: for a client, what to do next, a check-in on the channel they use, a progress summary, and session prep or a recap when one is due.</li>
+<li><b>Write to clients from their page.</b> The Communication tab now ends in a reply box for email or LinkedIn, opening on the channel they last used. Same as every send: proofread, then confirm. Email threads under your latest conversation and keeps a copy on their page; LinkedIn goes through Alex.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><b>LinkedIn links survive a rebuild.</b> "Rebuild this Mac from Supabase" brought 764 leads back without their LinkedIn link and 191 without their Sales Navigator link, because Supabase didn't carry them — and clients converted afterward had none. Both links now sync, a blank can never overwrite a filled one, and the lost links were restored from the rebuild's safety copy.</li>
+<li>Converting a lead to a client carries their LinkedIn link, whichever field it was in.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.330.zip"
+                length="37980754"
+                type="application/octet-stream"
+                sparkle:edSignature="klLn3IFGhvERmCoRM6+eCLZa+UaraDdtMWhsOdtdvcYSOrTiCRAcGL6Q5lhmr8SebhaWiq8buWusRSeFCb7mBQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.329</title>
             <pubDate>Sun, 20 Sep 2026 22:48:28 +0000</pubDate>
             <sparkle:version>356</sparkle:version>
