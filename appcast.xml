@@ -4,6 +4,29 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.332</title>
+            <pubDate>Wed, 23 Sep 2026 13:09:57 +0000</pubDate>
+            <sparkle:version>359</sparkle:version>
+            <sparkle:shortVersionString>0.1.332</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+  <li><b>"Alex needs you" stays cleared.</b> Clearing the queue one day and finding most of it back the next is fixed. The CRM now remembers the newest reply you have already seen, so a message you have dealt with never flags that person again — while a genuinely newer one still does.</li>
+  <li><b>Resuming automation no longer re-opens the same reply.</b> Putting a lead back on automation used to forget which of their messages you had reviewed, so that night's pass raised them again.</li>
+  <li><b>"Mark as replied" records everything they have said.</b> From Today and from the leads list, so that door closes too.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+  <li>Alex raises the same problem — a profile link that no longer opens, for instance — once a week instead of on every pass.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.332.zip"
+                length="37984902"
+                type="application/octet-stream"
+                sparkle:edSignature="ypzFQDpy0I85uUtxgD6nxCF3N6ONPRhbepEExUEgOJDRjscLEwo1sr0/QFQG2Sz1q4lZdZ2wPB1cCWodMvswCg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.331</title>
             <pubDate>Mon, 21 Sep 2026 15:21:01 +0000</pubDate>
             <sparkle:version>358</sparkle:version>
