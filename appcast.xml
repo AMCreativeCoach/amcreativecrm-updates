@@ -4,6 +4,33 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.333</title>
+            <pubDate>Thu, 24 Sep 2026 13:43:28 +0000</pubDate>
+            <sparkle:version>360</sparkle:version>
+            <sparkle:shortVersionString>0.1.333</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+  <li><b>Discovery calls get a recap.</b> After a discovery call on Zoom, the AI Companion summary (or the recording transcript) is summarized into the lead's notes with the resources you actually recommended, and a recap email is written for them — the reframe in their own specifics, three takeaways, recommended next steps, and only the links that came up on the call.</li>
+  <li><b>Recaps send themselves.</b> Coaching sessions and discovery calls both. Each recap waits a hold window and never lands inside quiet hours, so an evening call's recap arrives the next morning rather than at midnight.</li>
+  <li><b>"Recaps going out" in Today.</b> Every recap in the window before it sends, with Read it, Send now and Hold. Holding one leaves it in the notes for you to send by hand.</li>
+  <li><b>One Mac mails them, and you pick which.</b> A per-Mac switch in Settings → Automations, off everywhere by default, so nobody can be sent the same recap twice.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+  <li>Every recap says what it is: an AI-assembled summary that knows only what was said on the call, and invites a reply if it reads wrong.</li>
+  <li>Next steps are always phrased as recommendations — "skip any you've already done" — because the email sends hours after the call.</li>
+  <li>Dates and times are never copied out of a transcript; session and webinar times come from Acuity and the CRM's own records.</li>
+  <li>Recap emails carry no sign-off: your signature is added on send, as everywhere else.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.333.zip"
+                length="38212338"
+                type="application/octet-stream"
+                sparkle:edSignature="s3wfMyR1IhK+VEgvua0s8G+tTTr4Jgl/j7h5PQh4LSJo4QIO3CuVE9rysjT6OyCgr5MLtPdkcJ3Z2LSlns0dAw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.332</title>
             <pubDate>Wed, 23 Sep 2026 13:09:57 +0000</pubDate>
             <sparkle:version>359</sparkle:version>
