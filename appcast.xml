@@ -4,6 +4,27 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.335</title>
+            <pubDate>Sat, 26 Sep 2026 01:59:50 +0000</pubDate>
+            <sparkle:version>362</sparkle:version>
+            <sparkle:shortVersionString>0.1.335</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+  <li><b>Book a time your availability doesn't offer.</b> The slot picker has "Any other time" under the published slots, and the calendar's new-appointment popover offers "Book this time anyway" when the time you clicked isn't open — including on a day with nothing open at all. Acuity takes the booking and still sends the client the usual confirmation. Moving an appointment can be an exception in the same way.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+  <li>Rebuilt from a clean checkout: 0.1.334 was packaged while this work was still being written, so it carried a half-finished version of it.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.335.zip"
+                length="38306925"
+                type="application/octet-stream"
+                sparkle:edSignature="lp3jVxJ0Rq52UqwR0IJsEPQ/yG7/NWZjkm0JCGmlkPt6Ec9BdhvjUTE1eio36L/ccFgX+sgsMJEKXAwfcsrfDA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.334</title>
             <pubDate>Sat, 26 Sep 2026 01:48:25 +0000</pubDate>
             <sparkle:version>361</sparkle:version>
