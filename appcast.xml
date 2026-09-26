@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.334</title>
+            <pubDate>Sat, 26 Sep 2026 01:48:25 +0000</pubDate>
+            <sparkle:version>361</sparkle:version>
+            <sparkle:shortVersionString>0.1.334</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+  <li><b>Leads' emails stop appearing two and three times.</b> Gmail's history hands the same message back under every change that touched it, and the hourly sweep could return one email in two search chunks — both now file it once. Copies that already built up are collapsed at launch, keeping the answered stamp, the fuller body and the person it belongs to.</li>
+  <li><b>Duplicate bookings collapse too.</b> Four Acuity bookings were on the calendar twice, one of them three times.</li>
+  <li><b>A message can't be both sent and received.</b> A LinkedIn message recorded once as yours and once as theirs keeps the one you sent, so the timeline and the funnel stop disagreeing about who spoke.</li>
+</ul>
+<h3>New features</h3>
+<ul>
+  <li><b>Alberto session requests find the right person.</b> They are picked up whichever address Alberto sends them from, and now attach to a coaching client as well as a lead — by email, or by a full name only one person carries. A client's request appears at the top of Needs You with the session, the price and the interview date, and clears when you answer it.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+  <li>A lead matched to a request by name has its blank email filled in, so the next request lands without guessing.</li>
+  <li>Two test lead rows carrying an Alberto transcript in the name field have been removed.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.334.zip"
+                length="38264716"
+                type="application/octet-stream"
+                sparkle:edSignature="50lx3008O/aMfZHrA/3VJUaQweKSHkQ1acV+sllVwA+GHXmiNtRjii03lDgP/6uY6v6pIctpw/E7WJJLLvcFAg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.333</title>
             <pubDate>Thu, 24 Sep 2026 13:43:28 +0000</pubDate>
             <sparkle:version>360</sparkle:version>
