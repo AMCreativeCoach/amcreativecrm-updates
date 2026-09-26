@@ -4,6 +4,28 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.336</title>
+            <pubDate>Sat, 26 Sep 2026 02:38:16 +0000</pubDate>
+            <sparkle:version>363</sparkle:version>
+            <sparkle:shortVersionString>0.1.336</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+  <li><b>Every session type is bookable.</b> The list now comes from Acuity itself — each active one-to-one type with its length — so Alberto's paid sessions (Final Round Prep, Resume Teardown and the rest) can be booked from a lead or a client, and anything you add in Acuity is bookable the day you add it. The slot picker has a Session menu; the calendar's new-appointment popover offers the same list.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+  <li><b>Booking outside your availability works.</b> Acuity picks a calendar by who is free, and off availability nobody is, so it refused with "we could not find an available calendar". An exception booking now names the calendar the session type belongs to.</li>
+  <li>If Acuity still can't place one, the message says which session it was and what to check in Acuity, instead of printing its error code.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.336.zip"
+                length="38356029"
+                type="application/octet-stream"
+                sparkle:edSignature="5+EytAjqBjEDfcXhHZmTFxQzYN60X/Vd2ewxCuMXIIj+CaksvmHCCPZO96tnC4MiXXJoWVpqxqsY56Lnk+H2AA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.335</title>
             <pubDate>Sat, 26 Sep 2026 01:59:50 +0000</pubDate>
             <sparkle:version>362</sparkle:version>
