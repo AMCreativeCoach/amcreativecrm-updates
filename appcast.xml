@@ -4,6 +4,26 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.337</title>
+            <pubDate>Fri, 02 Oct 2026 16:36:59 +0000</pubDate>
+            <sparkle:version>364</sparkle:version>
+            <sparkle:shortVersionString>0.1.337</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+  <li><b>Sync reads only what changed.</b> Every sync used to read every row of every table — around seventeen thousand rows — to find the handful that moved, which is what drained the Supabase Disk IO budget. Each table now remembers the newest row it has seen and asks only for what came after it.</li>
+  <li><b>The full picture is still checked.</b> Every table is read in full every six hours, and on every Sync now you press, so a record that goes missing on one Mac still comes back.</li>
+  <li>The handled-state table no longer rewrites every dismissal on every sync; it writes only when something changed on this Mac.</li>
+  <li>Rebuilding a Mac from Supabase still pulls everything, as it must.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.337.zip"
+                length="38395784"
+                type="application/octet-stream"
+                sparkle:edSignature="EJDa/ybg7WjrZQ/EkTbMsO2bC2BrWMHccmCiOyAjXDhi91633hLzrsIPHn7dYRXeolCWizsG5D/854YxBcUfAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.336</title>
             <pubDate>Sat, 26 Sep 2026 02:38:16 +0000</pubDate>
             <sparkle:version>363</sparkle:version>
