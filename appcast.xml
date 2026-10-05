@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.338</title>
+            <pubDate>Mon, 05 Oct 2026 23:03:44 +0000</pubDate>
+            <sparkle:version>365</sparkle:version>
+            <sparkle:shortVersionString>0.1.338</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+  <li><b>YouTube Shorts replaces Threads.</b> Shorts shares the TikTok cut as its description, and its first line becomes the Shorts title. A post with no video skips YouTube rather than failing the whole publish.</li>
+  <li><b>Write the short-form cuts in the batch file.</b> Two new directives, <code>INSTAGRAM:</code> and <code>TIKTOK:</code>, work like <code>FIRST COMMENT:</code> and run to the next directive, so a caption can have paragraphs. Anything you write is left alone by the AI drafting pass; Redraft on one post still regenerates it.</li>
+  <li><b>"What each channel allows"</b> under the text boxes: the character limit, what has to be attached, and where a call to action can actually go — the same table the AI copywriter is given.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+  <li>First comments are no longer sent to Instagram, which accepts the field and silently drops it — a CTA routed there never appeared. Only LinkedIn and Facebook carry one.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+  <li>A batch post with no channel bracket in its title now defaults to LinkedIn and Facebook.</li>
+  <li>A title can route a post to Shorts with <code>(YouTube)</code> or <code>(Shorts)</code>.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.338.zip"
+                length="38409331"
+                type="application/octet-stream"
+                sparkle:edSignature="g7VYQq15443l4iDXjk4tawC/MQQZlKKCD7p+o2QSXA48RJOjn/viSZC2fkSVwjhPRbesSFzvVtSZODZxBizBAg==" />
+        </item>
+
+        <item>
             <title>Version 0.1.337</title>
             <pubDate>Fri, 02 Oct 2026 16:36:59 +0000</pubDate>
             <sparkle:version>364</sparkle:version>
