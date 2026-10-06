@@ -4,6 +4,23 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.341</title>
+            <pubDate>Tue, 06 Oct 2026 15:27:16 +0000</pubDate>
+            <sparkle:version>368</sparkle:version>
+            <sparkle:shortVersionString>0.1.341</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+  <li><b>Bringing back an unpublished run now restores the card headings.</b> They were never lost — a post's heading is stored as its title — but the restore left the Card heading box empty, so the cards came back blank.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.341.zip"
+                length="38505753"
+                type="application/octet-stream"
+                sparkle:edSignature="IRaIuzsxcGVUuegIwHsjaV7iXeLL/f69xGKQoSc0QWrj5ekogS8FZC3NIXh77xi3Eov/LVJ0mtzq3CDggIapCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.340</title>
             <pubDate>Tue, 06 Oct 2026 14:20:37 +0000</pubDate>
             <sparkle:version>367</sparkle:version>
