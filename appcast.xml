@@ -4,6 +4,28 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.340</title>
+            <pubDate>Tue, 06 Oct 2026 14:20:37 +0000</pubDate>
+            <sparkle:version>367</sparkle:version>
+            <sparkle:shortVersionString>0.1.340</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+  <li><b>Publishing failed when a post's heading contained a line break.</b> Every card is uploaded to Cloudinary before Buffer is called, and the upload carried the heading — or, with no heading, the first sixty characters of the body — as its filename. A line break or a quotation mark in that text broke the upload, which failed as "check the Buffer connection" even though Buffer was never reached. Filenames are now plain labels.</li>
+</ul>
+<h3>New features</h3>
+<ul>
+  <li><b>The Social Posts batch is saved as you work.</b> Posts, copy, card settings, photo choice and framing are written to disk every few seconds and come back when you open the window — unpublished work no longer lives only in an open window.</li>
+  <li><b>Bring back an unpublished run.</b> If a batch was scheduled but never reached Buffer, an empty composer offers to rebuild it: one post per title, each channel's copy back in its own box.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.340.zip"
+                length="38505635"
+                type="application/octet-stream"
+                sparkle:edSignature="BCOlOeK7nv+VEh2S6mWS0vL4G5egzjvWTuTrYff48o8lCqSgB442NbrJ2EhMu5RStDCnpnAM51ji4xRnnaL7CA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.339</title>
             <pubDate>Tue, 06 Oct 2026 01:51:22 +0000</pubDate>
             <sparkle:version>366</sparkle:version>
