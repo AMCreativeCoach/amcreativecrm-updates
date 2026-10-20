@@ -4,6 +4,23 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.344</title>
+            <pubDate>Tue, 20 Oct 2026 21:05:35 +0000</pubDate>
+            <sparkle:version>371</sparkle:version>
+            <sparkle:shortVersionString>0.1.344</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+  <li><b>A booking's email address now lands on the lead.</b> When a booking is matched to a lead by name, Acuity's address is copied over if the lead has none. Without it the recap importer skipped that person entirely — there was nowhere to send to — and nothing reported the skip, which is how one discovery call went without a recap. An address you typed yourself is never replaced.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.344.zip"
+                length="38484868"
+                type="application/octet-stream"
+                sparkle:edSignature="Zl7p6JCTShLcI+wkuCSjVV4rB4NT5DpgS2kXtZr0UyETYl7CwZvdnmqdB4hkzghXQ7wRByPMKZJ4UeZgaICfCQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.343</title>
             <pubDate>Tue, 20 Oct 2026 01:10:22 +0000</pubDate>
             <sparkle:version>370</sparkle:version>
