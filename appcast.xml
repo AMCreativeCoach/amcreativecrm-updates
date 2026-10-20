@@ -4,6 +4,28 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.343</title>
+            <pubDate>Tue, 20 Oct 2026 01:10:22 +0000</pubDate>
+            <sparkle:version>370</sparkle:version>
+            <sparkle:shortVersionString>0.1.343</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Bug fixes</h3>
+<ul>
+  <li><b>CloudKit mirroring is off for good.</b> Supabase is the sync; CloudKit was a second one running into the same store, and after any store reset every record it sent back arrived as another copy — one Mac had reached 6,192 leads for about 1,660 people. Mirroring no longer runs whatever a Mac's old setting says, and a shared store already on disk still loads so nothing becomes invisible.</li>
+  <li><b>Three ways a Mac could quietly stop syncing.</b> The incremental pull now moves its mark only after the rows are saved, breaks page ties on id so bulk-pushed rows can't be skipped, and no longer trusts another Mac's clock — the drift window went from two minutes to fifteen.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+  <li><b>Intake answers reach the lead's own details.</b> A discovery call's intake fills in phone, location, LinkedIn and title where those fields are empty, instead of only living in the imported file. Anything you have typed yourself always wins.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.343.zip"
+                length="38483949"
+                type="application/octet-stream"
+                sparkle:edSignature="PpAQmYUyvVUy11RbsK/OKJ7j3g1eW/BMDCQ7aa7oPXVIFg72ZVj4m9sR5moSdcizBsEkrec7zAa/yO1l0Fv+CA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.342</title>
             <pubDate>Thu, 08 Oct 2026 17:50:33 +0000</pubDate>
             <sparkle:version>369</sparkle:version>
