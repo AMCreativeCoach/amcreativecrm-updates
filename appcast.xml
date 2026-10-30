@@ -4,6 +4,34 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.345</title>
+            <pubDate>Fri, 30 Oct 2026 01:52:17 +0000</pubDate>
+            <sparkle:version>372</sparkle:version>
+            <sparkle:shortVersionString>0.1.345</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><strong>A lead can say no.</strong> When a reply says "no thank you", "I already hired someone" or "I found a job", the agent marks that lead declined and every automated path reads it as a permanent stop. It is distinct from Paused, which is a hold you chose, and from Replied, which only says they spoke. Proceed lifts it, like any other hold.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><strong>The post-session emails stop selling the October cohort.</strong> The attendee follow-up and the second touch both pitched a cohort that started on 5 October and closed applications on 30 September. Both now close on the free discovery call, which is what the November campaign asks for.</li>
+<li>The attendee follow-up restates the three takeaways the session promises, one line each, since it arrives two hours later while the session is still fresh.</li>
+<li>The final close reads as finished rather than live: it is pinned to a deadline that has passed and cannot fire again.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>The no-show email learned to count past one.</strong> It offered "the other session" — true in September with two sittings, wrong now there are three — and picked that session with the first row of an unsorted fetch, so a Monday no-show was offered whichever Thursday came back. It now lists every sitting still ahead, soonest first.</li>
+<li>A declined lead no longer reads as "not enrolled". Without a case for the value the typed accessor fell through to Off, so any read-modify-write in the app could have restarted the funnel on someone who asked to be left alone.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.345.zip"
+                length="38488808"
+                type="application/octet-stream"
+                sparkle:edSignature="I0MkcROR4/D9OReeZhdbhNR5sWIu2uZy7ESypyHS7Ku8dg38J2l5dPmBDntdpeA4tIqN2aTohoN3VFV7HMEKDA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.344</title>
             <pubDate>Tue, 20 Oct 2026 21:05:35 +0000</pubDate>
             <sparkle:version>371</sparkle:version>
