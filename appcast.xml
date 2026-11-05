@@ -4,6 +4,29 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.347</title>
+            <pubDate>Thu, 05 Nov 2026 02:43:45 +0000</pubDate>
+            <sparkle:version>374</sparkle:version>
+            <sparkle:shortVersionString>0.1.347</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Improvements</h3>
+<ul>
+<li><strong>The campaign card's call to action is yours to write.</strong> Two new fields in the Event Campaign composer &mdash; <em>Card eyebrow</em> and <em>Card button text</em> &mdash; set what the 9:16 still prints above the title and inside the orange pill. They save with the campaign, and leaving one blank restores the default rather than printing an empty pill.</li>
+<li>The defaults now follow the kind of event. An Eventbrite workshop keeps &ldquo;Upcoming Workshop&rdquo; and &ldquo;Reserve Your Spot on Eventbrite&rdquo;; a run of Zoom sessions gets &ldquo;3 Free Live Sessions&rdquo; and &ldquo;Reserve Your Spot&rdquo;, which also tells a scroller there is more than one chance to attend.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>A Zoom session no longer advertises Eventbrite.</strong> &ldquo;Reserve Your Spot on Eventbrite&rdquo; was a default on the card itself that the composer never overrode, so the Layoff Gameplan stills &mdash; hosted on Zoom, registered through amcreativecoach.com &mdash; pointed people at a platform with nothing to do with them. The eyebrow had the same fault, reading &ldquo;Upcoming Workshop&rdquo; over a webinar.</li>
+<li>The card's eyebrow and button text no longer carry defaults at all. A default that is correct for one source and wrong for another gets inherited in silence; the composer now has to state both, so the next event type added to that screen cannot quietly print the wrong thing.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.347.zip"
+                length="38537580"
+                type="application/octet-stream"
+                sparkle:edSignature="eQigmzs/+oxrPFOaUEXO00PQ7kz3+J7ohMJ1CeZM4W2mKrVqkbgitcFvWX9YV+O2YlSNmZageV1PR1x0giEyDQ==" />
+        </item>
+
+        <item>
             <title>Version 0.1.346</title>
             <pubDate>Thu, 05 Nov 2026 02:22:34 +0000</pubDate>
             <sparkle:version>373</sparkle:version>
