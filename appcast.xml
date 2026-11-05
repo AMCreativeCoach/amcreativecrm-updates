@@ -4,6 +4,31 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.346</title>
+            <pubDate>Thu, 05 Nov 2026 02:22:34 +0000</pubDate>
+            <sparkle:version>373</sparkle:version>
+            <sparkle:shortVersionString>0.1.346</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3>
+<ul>
+<li><strong>The campaign composer promotes Zoom sessions, not just Eventbrite workshops.</strong> Campaigns &rarr; Event Campaign&hellip; now lists your webinar sittings beside the free workshops, so the Layoff Gameplan run can be promoted from the same place with the same 9:16 card and schedule.</li>
+<li><strong>Several sittings of one webinar are one campaign.</strong> Three sessions sharing a title used to mean three separate campaigns &mdash; three competing posts on the feed the same morning. They now ramp toward the <em>last</em> sitting, so the run-up covers every date, and the copy names all of them.</li>
+<li><strong>A registration link lives on the campaign.</strong> A new field in the composer, saved with the campaign, so a multi-session run sends everyone to one landing page where they choose their session. Each sitting keeps its own Zoom link for the webinar emails.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><strong>On LinkedIn the link now goes in the first comment.</strong> LinkedIn suppresses reach on a post that sends people away, and every campaign post to date carried the link in the body. The call-to-action line moves to the first comment in your own wording; Facebook and the rest keep the link inline, where the preview card is worth having.</li>
+<li>The composer will not spend tokens drafting before a registration link is set, and says so in plain words rather than producing seven posts that end nowhere.</li>
+<li>A webinar carries no event description, so the composer now says when the Topic field is the only thing the AI has to write from.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.346.zip"
+                length="38528735"
+                type="application/octet-stream"
+                sparkle:edSignature="2Va7HVch0dUjw2X4fgvy+MuJIjzTItBoaAHXG+js6gdQKaikZqwaXvR2weleHca39Wvwa7TtD6zkDo/kI5nPAA==" />
+        </item>
+
+        <item>
             <title>Version 0.1.345</title>
             <pubDate>Fri, 30 Oct 2026 01:52:17 +0000</pubDate>
             <sparkle:version>372</sparkle:version>
