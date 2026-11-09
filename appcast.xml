@@ -4,6 +4,20 @@
      version="2.0">
     <channel>
         <item>
+            <title>Version 0.1.348</title>
+            <pubDate>Mon, 09 Nov 2026 16:53:38 +0000</pubDate>
+            <sparkle:version>376</sparkle:version>
+            <sparkle:shortVersionString>0.1.348</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New features</h3><ul><li><strong>Email replies can carry files.</strong> Attach a résumé, a worksheet, or any document to a reply from the lead timeline. Drag files in or pick them, and the reply goes out through Gmail with the attachments inline.</li></ul><h3>Improvements</h3><ul><li>The send confirmation now lists every attachment by name and size, so you see exactly what is going out before you send it.</li><li>The lead timeline records which files went with a reply, not just the message body.</li></ul>]]></description>
+            <enclosure
+                url="https://github.com/AMCreativeCoach/amcreativecrm-updates/raw/main/releases/AM Creative CRM-v0.1.348.zip"
+                length="38554680"
+                type="application/octet-stream"
+                sparkle:edSignature="RKJdZ9CNabWRe8P+wseYl2BpcYUk6ruy/iCmBPWAfQdwKiM4ZUp+MLtwyOKYXmdvT9tBYeqZ85kKNGFtpqIKCw==" />
+        </item>
+
+        <item>
             <title>Version 0.1.347</title>
             <pubDate>Thu, 05 Nov 2026 02:43:45 +0000</pubDate>
             <sparkle:version>374</sparkle:version>
